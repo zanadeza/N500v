@@ -3,16 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>تلخيصات تمريض - ملخصات ونماذج امتحانات التمريض</title>
-    <meta name="description" content="منصة تعليمية متخصصة في التمريض - ملخصات، محاضرات، وكتب للمساقات التمريضية">
+    <title>تلخيصات تمريض - منصة تعليم التمريض</title>
+    <meta name="description" content="منصة تلخيصات تمريض - ملخصات، شباتر، محاضرات، اختبارات">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- زر تبديل الوضع الليلي/النهاري -->
-    <button class="theme-toggle" id="themeToggle" aria-label="تبديل الوضع">
-        <span class="toggle-icon">🌙</span>
-    </button>
+    <button class="theme-toggle" id="themeToggle" aria-label="تبديل الوضع">🌙</button>
 
     <!-- رأس الصفحة -->
     <header class="header">
@@ -22,88 +20,13 @@
         </div>
     </header>
 
-    <!-- المحتوى الرئيسي -->
-    <main class="main-content">
-        <!-- شاشة الترحيب/الملف الشخصي -->
-        <div class="welcome-card">
-            <div class="user-info">
-                <div class="avatar">👩‍⚕️</div>
-                <div class="user-details">
-                    <h3 id="userGreeting">مرحباً بك، زائرنا العزيز</h3>
-                    <p class="user-message">اختر المساق الذي ترغب بدراسته</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- قائمة المساقات -->
-        <section class="courses-section">
-            <h2 class="section-title">المساقات المتاحة</h2>
-            <div class="courses-grid" id="coursesGrid">
-                <!-- سيتم تعبئة المساقات بواسطة JavaScript -->
-            </div>
-        </section>
-
-        <!-- نافذة عرض تفاصيل المساق (تظهر عند اختيار مساق) -->
-        <div class="course-detail hidden" id="courseDetail">
-            <button class="back-button" id="backToCourses">↩ العودة للمساقات</button>
-            
-            <div class="course-header" id="courseDetailHeader">
-                <h2 id="courseDetailTitle"></h2>
-                <p id="courseDetailDesc"></p>
-            </div>
-
-            <!-- تبويبات المساق -->
-            <div class="tabs">
-                <button class="tab-btn active" data-tab="chapters">📖 الشباتر والدروس</button>
-                <button class="tab-btn" data-tab="lectures">🎥 محاضرات اليوتيوب</button>
-                <button class="tab-btn" data-tab="book">📕 الكتاب المقرر</button>
-                <button class="tab-btn" data-tab="quizzes">📝 الاختبارات</button>
-            </div>
-
-            <!-- محتوى الشباتر -->
-            <div class="tab-content active" id="chaptersTab">
-                <div class="chapters-list" id="chaptersList"></div>
-            </div>
-
-            <!-- محتوى المحاضرات -->
-            <div class="tab-content" id="lecturesTab">
-                <div class="lectures-container">
-                    <button class="add-lecture-btn" id="addLectureBtn">+ إضافة رابط محاضرة جديدة</button>
-                    <div class="lectures-list" id="lecturesList"></div>
-                </div>
-            </div>
-
-            <!-- محتوى الكتاب المقرر -->
-            <div class="tab-content" id="bookTab">
-                <div class="book-section">
-                    <h3>الكتاب المقرر للمساق</h3>
-                    <div id="bookLinkContainer"></div>
-                    <button class="edit-book-btn" id="editBookBtn">✏️ تعديل رابط الكتاب</button>
-                </div>
-            </div>
-
-            <!-- محتوى الاختبارات -->
-            <div class="tab-content" id="quizzesTab">
-                <div class="quizzes-container" id="quizzesContainer"></div>
-            </div>
-        </div>
-
-        <!-- نافذة عرض الأسئلة (مودال) -->
-        <div class="modal" id="quizModal">
-            <div class="modal-content">
-                <span class="close-modal">&times;</span>
-                <h3 id="modalChapterTitle">اختبار الشابتر</h3>
-                <div id="quizQuestions"></div>
-                <button class="submit-quiz-btn" id="submitQuiz">تأكيد الإجابات</button>
-                <div id="quizResult"></div>
-            </div>
-        </div>
+    <!-- المحتوى الرئيسي - سيتم تغييره ديناميكياً -->
+    <main class="main-content" id="mainContent">
+        <!-- سيتم تعبئة المحتوى بواسطة JavaScript -->
     </main>
 
-    <!-- تذييل الصفحة -->
     <footer class="footer">
         <p>© 2025 تلخيصات تمريض - جميع الحقوق محفوظة</p>
-        <p class="footer-note">منصة تعليمية لممرضات وممرضي المستقبل</p>
     </footer>
 
     <script src="script.js"></script>
