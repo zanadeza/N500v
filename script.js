@@ -18,9 +18,21 @@ let coursesData = {
                 { name: "شابتر 8 - Body Mechanics, Positioning", url: "https://www.mediafire.com/file/hchz5hf38cszt1o/Body_Mechanics%252C_Positioning.pdf/file" }
             ],
             chapters: [
-                { name: "Asepsis", pdfUrl: "https://www.mediafire.com/file/3ngj0dww90i5i7f/Asepsis.pdf/file", description: "مفهوم العقامة وأهميتها في التمريض، طرق منع انتقال العدوى" },
-                { name: "Infection Control", pdfUrl: "https://www.mediafire.com/file/14d312yhv4x1x7d/Infection_Control.pdf/file", description: "مكافحة العدوى، أنواعها، وطرق الوقاية منها" },
-                { name: "Safety", pdfUrl: "https://www.mediafire.com/file/ofe0j0gqca2knxb/Safety.pdf/file", description: "سلامة المريض والعاملين في المجال الصحي" },
+                { 
+                    name: "Asepsis", 
+                    pdfUrl: "https://www.mediafire.com/file/3ngj0dww90i5i7f/Asepsis.pdf/file", 
+                    summary: `📝 **تلخيص شابتر 1 - Asepsis (العقامة):**\n\n• **تعريف العقامة:** هي مجموعة الإجراءات التي تهدف إلى منع انتقال العدوى والقضاء على الكائنات الحية الدقيقة الممرضة.\n\n• **أنواع العقامة:**\n  - العقامة الطبية: تقليل عدد الجراثيم\n  - العقامة الجراحية: القضاء التام على جميع الجراثيم\n\n• **طرق مكافحة العدوى:**\n  1. غسل اليدين (أهم طريقة)\n  2. استخدام القفازات والكمامات\n  3. التعقيم والتطهير\n  4. العزل الصحي\n\n• **سلسلة العدوى:**\n  - مصدر العدوى → طريق الانتقال → الشخص القابل للإصابة`
+                },
+                { 
+                    name: "Infection Control", 
+                    pdfUrl: "https://www.mediafire.com/file/14d312yhv4x1x7d/Infection_Control.pdf/file", 
+                    summary: `📝 **تلخيص شابتر 2 - Infection Control (مكافحة العدوى):**\n\n• **أنواع العدوى:**\n  - عدوى بكتيرية\n  - عدوى فيروسية\n  - عدوى فطرية\n  - عدوى طفيلية\n\n• **مراحل العدوى:**\n  1. فترة الحضانة\n  2. فترة البادرات\n  3. فترة الذروة\n  4. فترة النقاهة\n\n• **إجراءات مكافحة العدوى:**\n  - غسل اليدين قبل وبعد كل إجراء\n  - التعقيم المناسب للأدوات\n  - التخلص الآمن من النفايات الطبية\n  - الاحتياطات القياسية للعزل`
+                },
+                { 
+                    name: "Safety", 
+                    pdfUrl: "https://www.mediafire.com/file/ofe0j0gqca2knxb/Safety.pdf/file", 
+                    summary: `📝 **تلخيص شابتر 3 - Safety (السلامة):**\n\n• **أهداف السلامة في التمريض:**\n  - حماية المريض من الإصابات\n  - حماية الممرض من المخاطر المهنية\n  - توفير بيئة آمنة\n\n• **مخاطر السلامة الشائعة:**\n  - السقوط (الأكثر شيوعاً بين كبار السن)\n  - الحروق\n  - التسمم الدوائي\n  - الاختناق\n\n• **إجراءات الوقاية:**\n  - رفع جوانب السرير للمرضى المعرضين للسقوط\n  - استخدام فرامل السرير والعربة\n  - وضع جرس الإنذار بجانب المريض\n  - الإضاءة المناسبة ليلاً`
+                },
                 { name: "Admission, Discharge, Transfer", pdfUrl: "https://www.mediafire.com/file/jy3g11m8l3tt9g5/Admission%252C_Discharge%252C_Transfer%252C.pdf/file", description: "إجراءات قبول وتحويل وخروج المريض" },
                 { name: "Recording and Reporting", pdfUrl: "https://www.mediafire.com/file/5om84r45wbfeo70/Recording_and_Reporting.pdf/file", description: "طرق التسجيل والتقرير في التمريض" },
                 { name: "Vital Signs", pdfUrl: "https://www.mediafire.com/file/r4hiqhu8hedmx29/Vital_Signs.pdf/file", description: "العلامات الحيوية وقياساتها الطبيعية" },
@@ -49,7 +61,21 @@ let coursesData = {
             bookUrl: "",
             bookChapters: [],
             chapters: [
-                { name: "المهارات التمريضية الأساسية", pdfUrl: "", description: "المهارات العملية الأساسية في التمريض" }
+                { 
+                    name: "المهارات التمريضية الأساسية", 
+                    pdfUrl: "", 
+                    summary: `📝 **تلخيص شابتر 1 - المهارات التمريضية الأساسية:**\n\n• **المهارات الأساسية التي يجب على الممرض إتقانها:**\n\n**1. قياس العلامات الحيوية:**\n  - درجة الحرارة (فموي، إبطي، شرجي، طبلي)\n  - النبض (السرعة، الانتظام، القوة)\n  - التنفس (السرعة، العمق، النمط)\n  - ضغط الدم (الانقباضي والانبساطي)\n\n**2. العناية بالجروح:**\n  - تنظيف الجرح من الداخل إلى الخارج\n  - تغيير الضمادات بانتظام\n  - مراقبة علامات الالتهاب\n\n**3. إعطاء الأدوية:**\n  - الحقن العضلي، الوريدي، تحت الجلد\n  - التأكد من الدواء والجرعة المناسبة\n  - الالتزام بالقواعد الخمس الصحيحة`
+                },
+                { 
+                    name: "المهارات المتقدمة", 
+                    pdfUrl: "", 
+                    summary: `📝 **تلخيص شابتر 2 - المهارات التمريضية المتقدمة:**\n\n• **الإنعاش القلبي الرئوي (CPR):**\n  - الضغطات على الصدر (30 ضغطة)\n  - التنفس الاصطناعي (نفختين)\n  - النسبة 30:2\n\n• **القسطرة البولية:**\n  - تعقيم المنطقة\n  - استخدام تقنية معقمة\n  - مراقبة كمية البول ولونه\n\n• **التنفس الصناعي:**\n  - جهاز التنفس الصناعي\n  - شفط الإفرازات\n  - مراقبة تشبع الأكسجين`
+                },
+                { 
+                    name: "الرعاية التمريضية المتخصصة", 
+                    pdfUrl: "", 
+                    summary: `📝 **تلخيص شابتر 3 - الرعاية التمريضية المتخصصة:**\n\n• **رعاية مرضى الحروق:**\n  - تقييم مساحة الحرق وعمقه\n  - تنظيف وتعقيم الحرق\n  - تغطية الحرق بضمادات معقمة\n  - مراقبة علامات الصدمة\n\n• **رعاية مرضى السكري:**\n  - قياس نسبة السكر في الدم\n  - إعطاء الأنسولين\n  - مراقبة أعراض نقص أو ارتفاع السكر\n  - التثقيف الصحي للمريض\n\n• **رعاية مرضى الضغط المرتفع:**\n  - مراقبة ضغط الدم بانتظام\n  - التوعية بأهمية الأدوية والغذاء الصحي`
+                }
             ],
             lectures: []
         },
@@ -61,9 +87,21 @@ let coursesData = {
             bookUrl: "",
             bookChapters: [],
             chapters: [
-                { name: "الجهاز الهيكلي", pdfUrl: "", description: "دراسة العظام والمفاصل والهيكل العظمي" },
-                { name: "الجهاز العضلي", pdfUrl: "", description: "دراسة العضلات وأنواعها ووظائفها" },
-                { name: "الجهاز العصبي", pdfUrl: "", description: "دراسة الدماغ والحبل الشوكي والأعصاب" },
+                { 
+                    name: "الجهاز الهيكلي", 
+                    pdfUrl: "", 
+                    summary: `📝 **تلخيص شابتر 1 - الجهاز الهيكلي (Skeletal System):**\n\n• **وظائف الجهاز الهيكلي:**\n  - دعم الجسم وإعطائه الشكل\n  - حماية الأعضاء الداخلية\n  - تخزين الكالسيوم والفوسفور\n  - إنتاج خلايا الدم (النخاع العظمي)\n\n• **أقسام الهيكل العظمي:**\n  - الهيكل المحوري (الجمجمة، العمود الفقري، القفص الصدري)\n  - الهيكل الطرفي (الأطراف العلوية والسفلية، الحوض)\n\n• **أنواع العظام:**\n  - عظام طويلة (الفخذ، الساق)\n  - عظام قصيرة (الرسغ، الكاحل)\n  - عظام مسطحة (الجمجمة، عظم الكتف)\n  - عظام غير منتظمة (الفقرات)\n\n• **عدد عظام الإنسان البالغ:** 206 عظمة`
+                },
+                { 
+                    name: "الجهاز العضلي", 
+                    pdfUrl: "", 
+                    summary: `📝 **تلخيص شابتر 2 - الجهاز العضلي (Muscular System):**\n\n• **أنواع العضلات:**\n  - العضلات الهيكلية (إرادية)\n  - العضلات الملساء (لا إرادية - توجد في الأمعاء والأوعية الدموية)\n  - العضلة القلبية (لا إرادية - توجد في القلب فقط)\n\n• **وظائف العضلات:**\n  - الحركة\n  - الحفاظ على الوضعية\n  - إنتاج الحرارة\n  - تثبيت المفاصل\n\n• **أهم عضلات الجسم:**\n  - العضلة القلبية\n  - الحجاب الحاجز (التنفس)\n  - العضلة ذات الرأسين والعضلة ثلاثية الرؤوس`
+                },
+                { 
+                    name: "الجهاز العصبي", 
+                    pdfUrl: "", 
+                    summary: `📝 **تلخيص شابتر 3 - الجهاز العصبي (Nervous System):**\n\n• **أقسام الجهاز العصبي:**\n  - الجهاز العصبي المركزي (الدماغ + الحبل الشوكي)\n  - الجهاز العصبي الطرفي (الأعصاب المتفرعة)\n\n• **أجزاء الدماغ:**\n  - المخ (الوعي، الذاكرة، الحركة الإرادية)\n  - المخيخ (التوازن والتناسق الحركي)\n  - جذع الدماغ (الوظائف الحيوية: التنفس، النبض)\n\n• **الخلية العصبية (العصبون):**\n  - جسم الخلية\n  - محور عصبي\n  - زوائد شجرية\n\n• **الجهاز العصبي الذاتي:**\n  - الجهاز السمبثاوي (الاستجابة للطوارئ)\n  - الجهاز نظير السمبثاوي (الاسترخاء والهضم)`
+                },
                 { name: "الجهاز الدوري", pdfUrl: "", description: "دراسة القلب والأوعية الدموية" },
                 { name: "الجهاز التنفسي", pdfUrl: "", description: "دراسة الرئتين والمجاري التنفسية" },
                 { name: "الجهاز الهضمي", pdfUrl: "", description: "دراسة الجهاز الهضمي ووظائفه" },
@@ -85,9 +123,21 @@ let coursesData = {
             bookUrl: "https://drive.google.com/drive/folders/1ZuP4XNRreseUwH3GMTiTZNP8IdI2miuJ",
             bookChapters: [],
             chapters: [
-                { name: "مقدمة في علم الأحياء", pdfUrl: "", description: "تعريف علم الأحياء وفروعه" },
-                { name: "الخلية", pdfUrl: "", description: "تركيب الخلية ووظائفها" },
-                { name: "الوراثة", pdfUrl: "", description: "المبادئ الأساسية لعلم الوراثة" },
+                { 
+                    name: "مقدمة في علم الأحياء", 
+                    pdfUrl: "", 
+                    summary: `📝 **تلخيص شابتر 1 - مقدمة في علم الأحياء (Introduction to Biology):**\n\n• **تعريف علم الأحياء:** هو العلم الذي يدرس الكائنات الحية من حيث تركيبها، وظائفها، نموها، وتكاثرها.\n\n• **خصائص الكائنات الحية:**\n  - التنظيم الخلوي\n  - النمو والتطور\n  - التكاثر\n  - الاستجابة للمؤثرات\n  - التمثيل الغذائي\n  - التوازن الداخلي\n\n• **فروع علم الأحياء:**\n  - علم الخلايا\n  - علم الوراثة\n  - علم الأحياء الدقيقة\n  - علم البيئة\n  - علم التشريح`
+                },
+                { 
+                    name: "الخلية", 
+                    pdfUrl: "", 
+                    summary: `📝 **تلخيص شابتر 2 - الخلية (The Cell):**\n\n• **الخلية هي وحدة الحياة الأساسية.**\n\n• **مكونات الخلية الحيوانية:**\n  - النواة (تحوي المادة الوراثية)\n  - الغشاء الخلوي (ينظم مرور المواد)\n  - السيتوبلازم (الوسط الهلامي)\n  - الميتوكوندريا (مركز الطاقة)\n  - الشبكة الإندوبلازمية (تصنيع البروتينات)\n  - جهاز جولجي (تعبئة المواد)\n\n• **أنواع الخلايا:**\n  - خلية بدائية النواة (لا تحتوي نواة)\n  - خلية حقيقية النواة (تحتوي نواة)\n\n• **الفرق بين الخلية النباتية والحيوانية:**\n  - النباتية: جدار خلوي، بلاستيدات خضراء، فجوة عصارية كبيرة\n  - الحيوانية: لا تحتوي جدار خلوي أو بلاستيدات`
+                },
+                { 
+                    name: "الوراثة", 
+                    pdfUrl: "", 
+                    summary: `📝 **تلخيص شابتر 3 - الوراثة (Genetics):**\n\n• **تعريف الوراثة:** انتقال الصفات من الآباء إلى الأبناء.\n\n• **الحمض النووي (DNA):**\n  - المادة الوراثية التي تحمل الشفرة الوراثية\n  - يتكون من سلسلتين ملتفتين حول بعضهما (اللولب المزدوج)\n  - الوحدة الأساسية هي النيوكليوتيدات\n\n• **الجينات:** هي قطع من DNA تحدد صفة معينة.\n\n• **الكروموسومات:**\n  - الإنسان لديه 46 كروموسوم (23 زوج)\n  - 22 زوج من الكروموسومات الجسدية\n  - زوج واحد من الكروموسومات الجنسية (XX أنثى، XY ذكر)\n\n• **قواعد مندل:**\n  - قانون السيادة\n  - قانون الانعزال\n  - قانون التوزيع المستقل`
+                },
                 { name: "التمثيل الغذائي", pdfUrl: "", description: "عمليات الأيض في الجسم" },
                 { name: "الأحياء الدقيقة", pdfUrl: "", description: "دراسة الكائنات الحية الدقيقة" },
                 { name: "جهاز المناعة", pdfUrl: "", description: "آليات الدفاع في الجسم" },
@@ -120,17 +170,45 @@ let quizData = {
         0: [
             { question: "ما هو تعريف Asepsis؟", options: ["تعقيم", "منع العدوى", "نظافة", "تطهير"], correct: 1 },
             { question: "ما هي أهم طرق منع العدوى؟", options: ["غسل اليدين", "القفازات", "الكمامة", "كل ما سبق"], correct: 3 }
+        ],
+        1: [
+            { question: "ما هي مراحل العدوى؟", options: ["الحضانة-البادرات-الذروة-النقاهة", "الذروة-الحضانة-البادرات-النقاهة", "البادرات-الحضانة-الذروة-النقاهة", "النقاهة-الذروة-البادرات-الحضانة"], correct: 0 }
+        ],
+        2: [
+            { question: "ما هي أكثر المخاطر شيوعاً بين كبار السن في المستشفى؟", options: ["الحروق", "السقوط", "التسمم الدوائي", "الاختناق"], correct: 1 }
+        ]
+    },
+    amali: {
+        0: [
+            { question: "ما هي النسبة الصحيحة للضغطات إلى التنفس في الإنعاش القلبي الرئوي؟", options: ["30:2", "15:2", "30:1", "15:1"], correct: 0 },
+            { question: "من أين يتم قياس درجة الحرارة بشكل أدق؟", options: ["الإبط", "الفم", "الشرج", "الجبين"], correct: 2 }
+        ],
+        1: [
+            { question: "ما هي التقنية المستخدمة في القسطرة البولية؟", options: ["معقمة", "نظيفة", "عادية", "لا شيء مما سبق"], correct: 0 }
         ]
     },
     tashreeh: {
         0: [
             { question: "كم عدد عظام الإنسان البالغ؟", options: ["200", "206", "210", "215"], correct: 1 },
             { question: "أي من هذه ليس جزءاً من الجهاز الهيكلي؟", options: ["الجمجمة", "القفص الصدري", "الكبد", "العمود الفقري"], correct: 2 }
+        ],
+        1: [
+            { question: "أي نوع من العضلات يوجد في القلب؟", options: ["هيكلية", "ملساء", "قلبية", "إرادية"], correct: 2 }
+        ],
+        2: [
+            { question: "أي جزء من الدماغ مسؤول عن التوازن؟", options: ["المخ", "المخيخ", "جذع الدماغ", "الحبل الشوكي"], correct: 1 }
         ]
     },
     ahyaa: {
         0: [
             { question: "ما هي الوحدة الأساسية للحياة؟", options: ["النسيج", "العضو", "الخلية", "الجزيء"], correct: 2 }
+        ],
+        1: [
+            { question: "أين توجد الميتوكوندريا في الخلية؟", options: ["النواة", "السيتوبلازم", "الغشاء", "الجدار"], correct: 1 },
+            { question: "ما هي وظيفة الميتوكوندريا؟", options: ["هضم الطعام", "إنتاج الطاقة", "تخزين الماء", "تصنيع البروتين"], correct: 1 }
+        ],
+        2: [
+            { question: "كم عدد الكروموسومات لدى الإنسان؟", options: ["23", "46", "48", "24"], correct: 1 }
         ]
     }
 };
@@ -246,7 +324,7 @@ function renderCourse(container, courseId) {
         </div>
         
         <div class="button-group">
-            <button class="add-btn" id="chaptersBtn">📖 الشباتر والدروس</button>
+            <button class="add-btn" id="chaptersBtn">📖 ملخصات</button>
             <button class="add-btn" id="lecturesBtn">🎥 المحاضرات</button>
             <button class="add-btn" id="bookBtn">📕 الكتاب المقرر</button>
             <button class="add-btn" id="quizzesBtn">📝 الاختبارات</button>
@@ -273,7 +351,7 @@ function renderCourse(container, courseId) {
 
 function renderChaptersList(course) {
     return `
-        <h2 class="section-title">📖 الشباتر والدروس</h2>
+        <h2 class="section-title">📖 الملخصات</h2>
         <div class="chapters-grid">
             ${course.chapters.map((ch, idx) => `
                 <div class="chapter-item" data-chapter="${idx}">
@@ -281,7 +359,7 @@ function renderChaptersList(course) {
                         <span class="chapter-icon">📘</span>
                         شابتر ${idx+1}: ${ch.name}
                     </div>
-                    <span class="quiz-badge">اختبار</span>
+                    <span class="quiz-badge">عرض الملخص</span>
                 </div>
             `).join('')}
         </div>
@@ -305,7 +383,7 @@ function renderQuizzesList(course) {
     `;
 }
 
-// ==================== عرض صفحة الشابتر ====================
+// ==================== عرض صفحة الملخص (الشابتر) ====================
 function renderChapter(container, courseId, chapterIndex) {
     const course = coursesData.courses.find(c => c.id === courseId);
     if (!course || !course.chapters[chapterIndex]) {
@@ -319,23 +397,22 @@ function renderChapter(container, courseId, chapterIndex) {
         <div class="nav-bar">
             <button class="back-btn" id="backBtn">↩ رجوع</button>
             <button class="back-btn" id="backToCourse">📚 العودة للمساق</button>
-            <span class="breadcrumb">${course.name} / شابتر ${chapterIndex+1}: ${chapter.name}</span>
+            <span class="breadcrumb">${course.name} / ملخص شابتر ${chapterIndex+1}: ${chapter.name}</span>
         </div>
         
         <div class="welcome-card">
             <div class="avatar">📖</div>
             <div class="user-greeting">
-                <h3>شابتر ${chapterIndex+1}: ${chapter.name}</h3>
-                <p>ملخصات وشرح مفصل للشابتر</p>
+                <h3>ملخص شابتر ${chapterIndex+1}: ${chapter.name}</h3>
+                <p>مراجعة سريعة وشاملة للمادة</p>
             </div>
         </div>
         
         <div class="chapter-content">
-            <div class="chapter-description">
-                <strong>📝 وصف الشابتر:</strong><br>
-                ${chapter.description || "محتوى الشابتر قيد التجهيز..."}
+            <div class="chapter-description" style="white-space: pre-line; line-height: 1.8; font-size: 0.9rem;">
+                ${chapter.summary || chapter.description || "📝 الملخص قيد التجهيز..."}
             </div>
-            ${chapter.pdfUrl ? `<a href="${chapter.pdfUrl}" target="_blank" class="book-link" style="display: block; text-align: center; margin-top: 15px;">📥 تحميل ملف الشابتر PDF</a>` : ''}
+            ${chapter.pdfUrl ? `<a href="${chapter.pdfUrl}" target="_blank" class="book-link" style="display: block; text-align: center; margin-top: 20px;">📥 تحميل ملف PDF للشابتر</a>` : ''}
             <button class="submit-btn" id="takeQuizBtn" style="margin-top: 20px;">📝 إجراء اختبار الشابتر</button>
         </div>
     `;
@@ -392,12 +469,10 @@ function renderBook(container, courseId) {
         return;
     }
     
-    // التحقق إذا كان المساق يحتوي على شباتر كتب منفصلة
     const hasBookChapters = course.bookChapters && course.bookChapters.length > 0;
     const hasMainBook = course.bookUrl && course.bookUrl !== "";
     
     if (hasBookChapters) {
-        // عرض الشباتر كقائمة (لاساسيات التمريض نظري)
         container.innerHTML = `
             <div class="nav-bar">
                 <button class="back-btn" id="backBtn">↩ رجوع</button>
@@ -423,7 +498,6 @@ function renderBook(container, courseId) {
             </div>
         `;
     } else if (hasMainBook) {
-        // عرض رابط واحد (للاحياء)
         container.innerHTML = `
             <div class="nav-bar">
                 <button class="back-btn" id="backBtn">↩ رجوع</button>
@@ -439,7 +513,6 @@ function renderBook(container, courseId) {
             </div>
         `;
     } else {
-        // لا يوجد كتب
         container.innerHTML = `
             <div class="nav-bar">
                 <button class="back-btn" id="backBtn">↩ رجوع</button>
