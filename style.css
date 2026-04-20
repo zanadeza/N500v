@@ -13,7 +13,6 @@ body {
     font-size: 14px;
 }
 
-/* الوضع النهاري */
 body.light-mode {
     --bg-primary: #f5f7fa;
     --bg-secondary: #ffffff;
@@ -27,7 +26,6 @@ body.light-mode {
     --hover-bg: #f0f2f5;
 }
 
-/* الوضع الليلي */
 body.dark-mode {
     --bg-primary: #1a2632;
     --bg-secondary: #1e2a36;
@@ -46,7 +44,6 @@ body {
     color: var(--text-primary);
 }
 
-/* زر تبديل الوضع */
 .theme-toggle {
     position: fixed;
     top: 15px;
@@ -67,7 +64,6 @@ body {
     transform: scale(1.05);
 }
 
-/* الهيدر */
 .header {
     background: linear-gradient(135deg, #2c7da0, #3b9ac6);
     color: white;
@@ -87,14 +83,13 @@ body {
     opacity: 0.85;
 }
 
-/* المحتوى الرئيسي */
 .main-content {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 15px 40px;
+    min-height: 60vh;
 }
 
-/* شريط التنقل والرجوع */
 .nav-bar {
     display: flex;
     align-items: center;
@@ -128,7 +123,6 @@ body {
     color: var(--text-secondary);
 }
 
-/* بطاقة الترحيب */
 .welcome-card {
     background: var(--card-bg);
     border-radius: 16px;
@@ -161,7 +155,6 @@ body {
     color: var(--text-secondary);
 }
 
-/* قائمة المساقات */
 .section-title {
     font-size: 1rem;
     margin-bottom: 15px;
@@ -208,7 +201,6 @@ body {
     color: var(--text-secondary);
 }
 
-/* قائمة الشباتر */
 .chapters-grid {
     display: flex;
     flex-direction: column;
@@ -250,7 +242,6 @@ body {
     font-size: 0.65rem;
 }
 
-/* قائمة المحاضرات */
 .lectures-grid {
     display: flex;
     flex-direction: column;
@@ -280,7 +271,6 @@ body {
     text-decoration: underline;
 }
 
-/* صفحة الاختبار */
 .quiz-container {
     background: var(--card-bg);
     border-radius: 16px;
@@ -335,7 +325,6 @@ body {
     font-size: 0.85rem;
 }
 
-/* صفحة الكتاب */
 .book-card {
     background: var(--card-bg);
     border-radius: 16px;
@@ -354,7 +343,6 @@ body {
     margin-top: 15px;
 }
 
-/* أزرار الإضافة */
 .add-btn {
     background: var(--primary-light);
     border: 1px solid var(--border-color);
@@ -370,7 +358,16 @@ body {
     gap: 5px;
 }
 
-/* تذييل */
+.delete-lecture {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 4px 12px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 0.7rem;
+}
+
 .footer {
     text-align: center;
     padding: 15px;
@@ -380,7 +377,13 @@ body {
     color: var(--text-secondary);
 }
 
-/* استجابة للشاشات الصغيرة */
+.button-group {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
 @media (max-width: 480px) {
     .courses-grid {
         grid-template-columns: 1fr 1fr;
@@ -405,4 +408,10 @@ body {
     .chapter-name {
         font-size: 0.75rem;
     }
+}
+
+.loading {
+    text-align: center;
+    padding: 40px;
+    color: var(--text-secondary);
 }
