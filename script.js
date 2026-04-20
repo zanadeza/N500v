@@ -7,6 +7,16 @@ let coursesData = {
             description: "المفاهيم الأساسية والنظريات التمريضية",
             icon: "📖",
             bookUrl: "",
+            bookChapters: [
+                { name: "شابتر 1 - Asepsis", url: "https://www.mediafire.com/file/3ngj0dww90i5i7f/Asepsis.pdf/file" },
+                { name: "شابتر 2 - Infection Control", url: "https://www.mediafire.com/file/14d312yhv4x1x7d/Infection_Control.pdf/file" },
+                { name: "شابتر 3 - Safety", url: "https://www.mediafire.com/file/ofe0j0gqca2knxb/Safety.pdf/file" },
+                { name: "شابتر 4 - Admission, Discharge, Transfer", url: "https://www.mediafire.com/file/jy3g11m8l3tt9g5/Admission%252C_Discharge%252C_Transfer%252C.pdf/file" },
+                { name: "شابتر 5 - Recording and Reporting", url: "https://www.mediafire.com/file/5om84r45wbfeo70/Recording_and_Reporting.pdf/file" },
+                { name: "شابتر 6 - Vital Signs", url: "https://www.mediafire.com/file/r4hiqhu8hedmx29/Vital_Signs.pdf/file" },
+                { name: "شابتر 7 - Hygiene", url: "https://www.mediafire.com/file/q74kdfr41cit84g/Hygiene.pdf/file" },
+                { name: "شابتر 8 - Body Mechanics, Positioning", url: "https://www.mediafire.com/file/hchz5hf38cszt1o/Body_Mechanics%252C_Positioning.pdf/file" }
+            ],
             chapters: [
                 { name: "Asepsis", pdfUrl: "https://www.mediafire.com/file/3ngj0dww90i5i7f/Asepsis.pdf/file", description: "مفهوم العقامة وأهميتها في التمريض، طرق منع انتقال العدوى" },
                 { name: "Infection Control", pdfUrl: "https://www.mediafire.com/file/14d312yhv4x1x7d/Infection_Control.pdf/file", description: "مكافحة العدوى، أنواعها، وطرق الوقاية منها" },
@@ -15,7 +25,7 @@ let coursesData = {
                 { name: "Recording and Reporting", pdfUrl: "https://www.mediafire.com/file/5om84r45wbfeo70/Recording_and_Reporting.pdf/file", description: "طرق التسجيل والتقرير في التمريض" },
                 { name: "Vital Signs", pdfUrl: "https://www.mediafire.com/file/r4hiqhu8hedmx29/Vital_Signs.pdf/file", description: "العلامات الحيوية وقياساتها الطبيعية" },
                 { name: "Hygiene", pdfUrl: "https://www.mediafire.com/file/q74kdfr41cit84g/Hygiene.pdf/file", description: "النظافة الشخصية وأهميتها للمريض" },
-                { name: "Body Mechanics, Positioning", pdfUrl: "https://moodle.alaqsa.edu.ps/mod/url/view.php?id=42206", description: "الميكانيكا الحيوية للجسم وطرق وضع المريض" }
+                { name: "Body Mechanics, Positioning", pdfUrl: "https://www.mediafire.com/file/hchz5hf38cszt1o/Body_Mechanics%252C_Positioning.pdf/file", description: "الميكانيكا الحيوية للجسم وطرق وضع المريض" }
             ],
             lectures: [
                 { title: "محاضرة 1 الجزء الأول - Asepsis", url: "https://youtu.be/Fj_cHc7qiHI" },
@@ -37,6 +47,7 @@ let coursesData = {
             description: "المهارات السريرية والإجراءات العملية",
             icon: "💉",
             bookUrl: "",
+            bookChapters: [],
             chapters: [
                 { name: "المهارات التمريضية الأساسية", pdfUrl: "", description: "المهارات العملية الأساسية في التمريض" }
             ],
@@ -48,6 +59,7 @@ let coursesData = {
             description: "دراسة تركيب الجسم البشري",
             icon: "🧠",
             bookUrl: "",
+            bookChapters: [],
             chapters: [
                 { name: "الجهاز الهيكلي", pdfUrl: "", description: "دراسة العظام والمفاصل والهيكل العظمي" },
                 { name: "الجهاز العضلي", pdfUrl: "", description: "دراسة العضلات وأنواعها ووظائفها" },
@@ -71,6 +83,7 @@ let coursesData = {
             description: "الأساسيات البيولوجية للجسم",
             icon: "🔬",
             bookUrl: "https://drive.google.com/drive/folders/1ZuP4XNRreseUwH3GMTiTZNP8IdI2miuJ",
+            bookChapters: [],
             chapters: [
                 { name: "مقدمة في علم الأحياء", pdfUrl: "", description: "تعريف علم الأحياء وفروعه" },
                 { name: "الخلية", pdfUrl: "", description: "تركيب الخلية ووظائفها" },
@@ -332,7 +345,7 @@ function renderChapter(container, courseId, chapterIndex) {
     document.getElementById('takeQuizBtn').addEventListener('click', () => navigateTo('quiz', { courseId, chapterIndex }));
 }
 
-// ==================== عرض المحاضرات (بدون أزرار حذف/إضافة) ====================
+// ==================== عرض المحاضرات ====================
 function renderLectures(container, courseId) {
     const course = coursesData.courses.find(c => c.id === courseId);
     if (!course) {
@@ -379,20 +392,69 @@ function renderBook(container, courseId) {
         return;
     }
     
-    container.innerHTML = `
-        <div class="nav-bar">
-            <button class="back-btn" id="backBtn">↩ رجوع</button>
-            <button class="back-btn" id="backToCourse">📚 العودة للمساق</button>
-            <span class="breadcrumb">${course.name} / الكتاب المقرر</span>
-        </div>
-        
-        <div class="book-card">
-            <div style="font-size: 48px; margin-bottom: 15px;">📕</div>
-            <h3 style="margin-bottom: 10px;">الكتاب المقرر</h3>
-            <p style="font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 20px;">${course.name}</p>
-            ${course.bookUrl ? `<a href="${course.bookUrl}" target="_blank" class="book-link">📥 تحميل الكتاب</a>` : '<p style="color: #e74c3c;">⚠️ لم يتم إضافة رابط الكتاب بعد</p>'}
-        </div>
-    `;
+    // التحقق إذا كان المساق يحتوي على شباتر كتب منفصلة
+    const hasBookChapters = course.bookChapters && course.bookChapters.length > 0;
+    const hasMainBook = course.bookUrl && course.bookUrl !== "";
+    
+    if (hasBookChapters) {
+        // عرض الشباتر كقائمة (لاساسيات التمريض نظري)
+        container.innerHTML = `
+            <div class="nav-bar">
+                <button class="back-btn" id="backBtn">↩ رجوع</button>
+                <button class="back-btn" id="backToCourse">📚 العودة للمساق</button>
+                <span class="breadcrumb">${course.name} / الكتاب المقرر</span>
+            </div>
+            
+            <div class="book-card">
+                <div style="font-size: 48px; margin-bottom: 15px;">📚</div>
+                <h3 style="margin-bottom: 10px;">الكتب والمراجع</h3>
+                <p style="font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 20px;">${course.name}</p>
+                <div class="chapters-grid" style="margin-top: 20px;">
+                    ${course.bookChapters.map((ch, idx) => `
+                        <div class="chapter-item" style="cursor: default;">
+                            <div class="chapter-name">
+                                <span class="chapter-icon">📘</span>
+                                ${ch.name}
+                            </div>
+                            <a href="${ch.url}" target="_blank" class="pdf-badge" style="text-decoration: none;">📥 تحميل PDF</a>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+        `;
+    } else if (hasMainBook) {
+        // عرض رابط واحد (للاحياء)
+        container.innerHTML = `
+            <div class="nav-bar">
+                <button class="back-btn" id="backBtn">↩ رجوع</button>
+                <button class="back-btn" id="backToCourse">📚 العودة للمساق</button>
+                <span class="breadcrumb">${course.name} / الكتاب المقرر</span>
+            </div>
+            
+            <div class="book-card">
+                <div style="font-size: 48px; margin-bottom: 15px;">📕</div>
+                <h3 style="margin-bottom: 10px;">الكتاب المقرر</h3>
+                <p style="font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 20px;">${course.name}</p>
+                <a href="${course.bookUrl}" target="_blank" class="book-link">📥 تحميل الكتاب</a>
+            </div>
+        `;
+    } else {
+        // لا يوجد كتب
+        container.innerHTML = `
+            <div class="nav-bar">
+                <button class="back-btn" id="backBtn">↩ رجوع</button>
+                <button class="back-btn" id="backToCourse">📚 العودة للمساق</button>
+                <span class="breadcrumb">${course.name} / الكتاب المقرر</span>
+            </div>
+            
+            <div class="book-card">
+                <div style="font-size: 48px; margin-bottom: 15px;">📕</div>
+                <h3 style="margin-bottom: 10px;">الكتاب المقرر</h3>
+                <p style="font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 20px;">${course.name}</p>
+                <p style="color: #e74c3c;">⚠️ لم يتم إضافة الكتاب بعد</p>
+            </div>
+        `;
+    }
     
     document.getElementById('backBtn').addEventListener('click', () => window.history.back());
     document.getElementById('backToCourse').addEventListener('click', () => navigateTo('course', { courseId }));
