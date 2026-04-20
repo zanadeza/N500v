@@ -7,8 +7,30 @@ let coursesData = {
             description: "المفاهيم الأساسية والنظريات التمريضية",
             icon: "📖",
             bookUrl: "",
-            chapters: ["مدخل إلى التمريض", "تاريخ وتطور التمريض", "النظريات التمريضية", "المعايير الأخلاقية", "التواصل المهني", "التوثيق والتسجيل", "السلامة المهنية"],
-            lectures: []
+            chapters: ["Asepsis", "Infection Control", "Safety", "Admission, Discharge, Transfer", "Recording and Reporting", "Vital Signs", "Hygiene", "Body Mechanics, Positioning"],
+            chapterFiles: {
+                0: "https://www.mediafire.com/file/3ngj0dww90i5i7f/Asepsis.pdf/file",
+                1: "https://www.mediafire.com/file/14d312yhv4x1x7d/Infection_Control.pdf/file",
+                2: "https://www.mediafire.com/file/ofe0j0gqca2knxb/Safety.pdf/file",
+                3: "https://www.mediafire.com/file/jy3g11m8l3tt9g5/Admission%252C_Discharge%252C_Transfer%252C.pdf/file",
+                4: "https://www.mediafire.com/file/5om84r45wbfeo70/Recording_and_Reporting.pdf/file",
+                5: "https://www.mediafire.com/file/r4hiqhu8hedmx29/Vital_Signs.pdf/file",
+                6: "https://www.mediafire.com/file/q74kdfr41cit84g/Hygiene.pdf/file",
+                7: "https://moodle.alaqsa.edu.ps/mod/url/view.php?id=42206"
+            },
+            lectures: [
+                { title: "محاضرة 1 الجزء الأول - Asepsis", url: "https://youtu.be/Fj_cHc7qiHI" },
+                { title: "محاضرة 1 الجزء الثاني - Asepsis", url: "https://youtu.be/O1qCfxoZxXE" },
+                { title: "محاضرة 2 - Infection Control", url: "https://youtu.be/6AydMEgD2V0" },
+                { title: "محاضرة 3 - Safety", url: "https://youtu.be/YVBFkQ9gsoU" },
+                { title: "محاضرة 4 الجزء الأول - Admission, Discharge, Transfer", url: "https://youtu.be/tt1ifco00W8" },
+                { title: "محاضرة 4 الجزء الثاني - Admission, Discharge, Transfer", url: "https://youtu.be/tt1ifco00W8" },
+                { title: "محاضرة 5 - Recording and Reporting", url: "https://youtu.be/tt1ifco00W8" },
+                { title: "محاضرة 6 جزء أول - Vital Signs", url: "https://youtu.be/B3gQJsvhuMs" },
+                { title: "محاضرة 6 جزء ثاني - Vital Signs", url: "https://youtu.be/a3jdPLWsLbY" },
+                { title: "محاضرة 7 - Hygiene", url: "https://youtu.be/Us-PuSaWMaE" },
+                { title: "محاضرة 8 - Body Mechanics, Positioning", url: "https://youtu.be/nnwa61B0PVA" }
+            ]
         },
         {
             id: "amali",
@@ -27,9 +49,11 @@ let coursesData = {
             bookUrl: "",
             chapters: ["الجهاز الهيكلي", "الجهاز العضلي", "الجهاز العصبي", "الجهاز الدوري", "الجهاز التنفسي", "الجهاز الهضمي", "الجهاز البولي"],
             lectures: [
-                { title: "شرح الجهاز الهيكلي", url: "https://youtu.be/example1" },
-                { title: "شرح الجهاز العصبي", url: "https://youtu.be/example2" },
-                { title: "شرح الجهاز الدوري", url: "https://youtu.be/example3" }
+                { title: "محاضرة رقم 1 - محاضرة التشريح ووظائف اعضاء 1 2025 2026 المحاضرة الاولى", url: "https://youtu.be/zLoMS9bqnZY" },
+                { title: "محاضرة رقم 2 - محاضرة التشريح الثانية 11 04 2026", url: "https://youtu.be/t7GbRUIYOxk" },
+                { title: "محاضرة رقم 3 - محاضرة التشريح الثالثة 11 04 2026", url: "https://youtu.be/tMa5FO7hRgA" },
+                { title: "محاضرة رقم 4 - INTEGUMENTARY SYSTEM 4 المحاضرة الرابعة", url: "https://youtu.be/KCSViIGdhqY" },
+                { title: "محاضرة رقم 5 - Skeletal system 1 المحاضرة الخامسة", url: "https://youtu.be/T8KcYEFgilU" }
             ]
         },
         {
@@ -37,9 +61,22 @@ let coursesData = {
             name: "الاحياء",
             description: "الأساسيات البيولوجية للجسم",
             icon: "🔬",
-            bookUrl: "",
+            bookUrl: "https://drive.google.com/drive/folders/1ZuP4XNRreseUwH3GMTiTZNP8IdI2miuJ",
             chapters: ["مقدمة في علم الأحياء", "الخلية", "الوراثة", "التمثيل الغذائي", "الأحياء الدقيقة", "جهاز المناعة", "الجهاز الهرموني", "التكاثر", "النمو والتطور", "علم البيئة"],
-            lectures: []
+            lectures: [
+                { title: "محاضرة 1 - Chapter 1 Introduction to Microbiology", url: "https://www.youtube.com/watch?v=JUwqdnDMnv4&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-" },
+                { title: "محاضرة 2 الجزء الأول - Chapter 2 Bacterial cell structure (part 1)", url: "https://www.youtube.com/watch?v=mOLOMgInvTU&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-" },
+                { title: "محاضرة 2 الجزء الثاني - Chapter 2 Bacterial cell structure (part 2)", url: "https://www.youtube.com/watch?v=NP5P6m7pT6M&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=3" },
+                { title: "محاضرة 3 - Chapter 3: Bacterial growth and multiplication", url: "https://www.youtube.com/watch?v=NbUqxwae4R8&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=4" },
+                { title: "محاضرة 4 - Chapter 4: Bacterial Identification and Diagnosis", url: "https://www.youtube.com/watch?v=XUBKO_IKyVo&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=5" },
+                { title: "محاضرة 5 الجزء الأول - Chapter 5 (Part 1): Sterilization and disinfection", url: "https://www.youtube.com/watch?v=DV-8CJ1z9xg&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=6" },
+                { title: "محاضرة 5 الجزء الثاني - Chapter 5 (Part 2): Sterilization and disinfection", url: "https://www.youtube.com/watch?v=BNAM6oAk_6o&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=7" },
+                { title: "محاضرة 6 جزء أول - Chapter 6: Classification of bacteria (Part 1)", url: "https://www.youtube.com/watch?v=McWHmMMF8cc&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=8" },
+                { title: "محاضرة 6 الجزء الثاني - Chapter 6: Classification of bacteria (Part 2)", url: "https://www.youtube.com/watch?v=KxZuGg26Z4Q&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=9" },
+                { title: "محاضرة 6 الجزء الثالث - Chapter 6: Classification of bacteria (Part 3)", url: "https://www.youtube.com/watch?v=7gMBsyQLS90&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=10" },
+                { title: "محاضرة 6 الجزء الرابع - Chapter 6: Classification of bacteria (Part 4)", url: "https://www.youtube.com/watch?v=nmJd45pTF9Q&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=11" },
+                { title: "محاضرة 6 الجزء الخامس - Chapter 6: Classification of bacteria (Part 5)", url: "https://www.youtube.com/watch?v=NoyDyLmDvjQ&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=12" }
+            ]
         }
     ]
 };
@@ -48,11 +85,8 @@ let coursesData = {
 let quizData = {
     nadhari: {
         0: [
-            { question: "ما هو تعريف التمريض؟", options: ["مهنة مساعدة", "علم وفن", "مجرد وظيفة", "تطبيب"], correct: 1 },
-            { question: "من هي مؤسسة التمريض الحديث؟", options: ["كلارا بارتون", "فلورنس نايتينجيل", "ماري سيكول", "مارجريت سانجر"], correct: 1 }
-        ],
-        1: [
-            { question: "في أي عام تأسست أول مدرسة تمريض حديثة؟", options: ["1850", "1860", "1870", "1880"], correct: 1 }
+            { question: "ما هو تعريف Asepsis؟", options: ["تعقيم", "منع العدوى", "نظافة", "تطهير"], correct: 1 },
+            { question: "ما هي أهم طرق منع العدوى؟", options: ["غسل اليدين", "القفازات", "الكمامة", "كل ما سبق"], correct: 3 }
         ]
     },
     tashreeh: {
@@ -89,13 +123,6 @@ if (!currentUser) {
 }
 
 // ==================== نظام الصفحات ====================
-let currentRoute = {
-    page: 'home',
-    courseId: null,
-    chapterIndex: null
-};
-
-// دالة التنقل الرئيسية
 function navigateTo(page, params = {}) {
     let url = `#${page}`;
     if (params.courseId) url += `/${params.courseId}`;
@@ -103,7 +130,6 @@ function navigateTo(page, params = {}) {
     window.location.hash = url;
 }
 
-// عرض الصفحة حسب المسار
 function renderPage() {
     const main = document.getElementById('mainContent');
     if (!main) return;
@@ -220,9 +246,9 @@ function renderChaptersList(course) {
                 <div class="chapter-item" data-chapter="${idx}">
                     <div class="chapter-name">
                         <span class="chapter-icon">📘</span>
-                        ${ch}
+                        شابتر ${idx+1}: ${ch}
                     </div>
-                    <span class="quiz-badge">اختبار</span>
+                    ${course.chapterFiles && course.chapterFiles[idx] ? `<a href="${course.chapterFiles[idx]}" target="_blank" class="quiz-badge" style="text-decoration: none;" onclick="event.stopPropagation()">📥 تحميل PDF</a>` : '<span class="quiz-badge">اختبار</span>'}
                 </div>
             `).join('')}
         </div>
@@ -237,7 +263,7 @@ function renderQuizzesList(course) {
                 <div class="chapter-item" data-quiz="${idx}">
                     <div class="chapter-name">
                         <span class="chapter-icon">📝</span>
-                        اختبار: ${ch}
+                        اختبار شابتر ${idx+1}: ${ch}
                     </div>
                     <span class="quiz-badge">ابدأ</span>
                 </div>
@@ -255,24 +281,26 @@ function renderChapter(container, courseId, chapterIndex) {
     }
     
     const chapterName = course.chapters[chapterIndex];
+    const fileUrl = course.chapterFiles ? course.chapterFiles[chapterIndex] : null;
     
     container.innerHTML = `
         <div class="nav-bar">
             <button class="back-btn" id="backBtn">↩ رجوع</button>
             <button class="back-btn" id="backToCourse">📚 العودة للمساق</button>
-            <span class="breadcrumb">${course.name} / ${chapterName}</span>
+            <span class="breadcrumb">${course.name} / شابتر ${chapterIndex+1}: ${chapterName}</span>
         </div>
         
         <div class="welcome-card">
             <div class="avatar">📖</div>
             <div class="user-greeting">
-                <h3>${chapterName}</h3>
+                <h3>شابتر ${chapterIndex+1}: ${chapterName}</h3>
                 <p>ملخصات وشرح مفصل للشابتر</p>
             </div>
         </div>
         
         <div style="background: var(--card-bg); border-radius: 16px; padding: 20px; margin-top: 15px;">
-            <p style="font-size: 0.85rem; line-height: 1.6;">📝 محتوى الشابتر قيد التجهيز...</p>
+            ${fileUrl ? `<a href="${fileUrl}" target="_blank" class="book-link" style="display: block; text-align: center; margin-bottom: 20px;">📥 تحميل ملف الشابتر PDF</a>` : ''}
+            <p style="font-size: 0.85rem; line-height: 1.6; text-align: center;">📝 محتوى الشابتر قيد التجهيز...</p>
             <button class="submit-btn" id="takeQuizBtn" style="margin-top: 20px;">📝 إجراء اختبار الشابتر</button>
         </div>
     `;
@@ -397,7 +425,7 @@ function renderQuiz(container, courseId, chapterIndex) {
         <div class="nav-bar">
             <button class="back-btn" id="backBtn">↩ رجوع</button>
             <button class="back-btn" id="backToCourse">📚 العودة للمساق</button>
-            <span class="breadcrumb">${course.name} / اختبار ${chapterName}</span>
+            <span class="breadcrumb">${course.name} / اختبار شابتر ${chapterIndex+1}: ${chapterName}</span>
         </div>
         
         <div class="quiz-container">
@@ -451,15 +479,13 @@ function renderQuiz(container, courseId, chapterIndex) {
     document.getElementById('backToCourse').addEventListener('click', () => navigateTo('course', { courseId }));
 }
 
-// ==================== أحداث إضافية للشباتر والاختبارات ====================
+// ==================== أحداث إضافية ====================
 function attachDynamicEvents() {
-    // الأحداث للشباتر
     document.querySelectorAll('.chapter-item[data-chapter]').forEach(el => {
         el.removeEventListener('click', handleChapterClick);
         el.addEventListener('click', handleChapterClick);
     });
     
-    // الأحداث للاختبارات
     document.querySelectorAll('.chapter-item[data-quiz]').forEach(el => {
         el.removeEventListener('click', handleQuizClick);
         el.addEventListener('click', handleQuizClick);
@@ -467,6 +493,9 @@ function attachDynamicEvents() {
 }
 
 function handleChapterClick(e) {
+    const target = e.target;
+    if (target.tagName === 'A' || target.closest('a')) return;
+    
     const el = e.currentTarget;
     const chapterIndex = el.getAttribute('data-chapter');
     const courseId = getCurrentCourseIdFromPage();
@@ -493,12 +522,10 @@ function getCurrentCourseIdFromPage() {
     return null;
 }
 
-// ==================== مراقبة التغييرات ====================
 function observeDynamicContent() {
     const observer = new MutationObserver(() => {
         attachDynamicEvents();
     });
-    
     observer.observe(document.getElementById('mainContent'), { childList: true, subtree: true });
 }
 
@@ -538,5 +565,4 @@ window.addEventListener('load', () => {
     observeDynamicContent();
 });
 
-// حفظ البيانات بشكل دوري
 setInterval(saveData, 5000);
