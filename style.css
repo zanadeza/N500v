@@ -240,6 +240,21 @@ body {
     padding: 3px 10px;
     border-radius: 20px;
     font-size: 0.65rem;
+    cursor: pointer;
+}
+
+.pdf-badge {
+    background: #27ae60;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 0.65rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pdf-badge:hover {
+    background: #2ecc71;
 }
 
 .lectures-grid {
@@ -251,7 +266,7 @@ body {
 .lecture-item {
     background: var(--card-bg);
     border-radius: 12px;
-    padding: 10px 15px;
+    padding: 12px 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -265,10 +280,28 @@ body {
     display: flex;
     align-items: center;
     gap: 8px;
+    flex: 1;
 }
 
 .lecture-link:hover {
     text-decoration: underline;
+}
+
+.watch-btn {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.7rem;
+    font-family: 'Tajawal', sans-serif;
+    transition: all 0.2s;
+}
+
+.watch-btn:hover {
+    background: #1a5d7a;
+    transform: scale(1.02);
 }
 
 .quiz-container {
@@ -358,16 +391,6 @@ body {
     gap: 5px;
 }
 
-.delete-lecture {
-    background: #e74c3c;
-    color: white;
-    border: none;
-    padding: 4px 12px;
-    border-radius: 15px;
-    cursor: pointer;
-    font-size: 0.7rem;
-}
-
 .footer {
     text-align: center;
     padding: 15px;
@@ -381,6 +404,19 @@ body {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.chapter-content {
+    background: var(--card-bg);
+    border-radius: 16px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.chapter-description {
+    font-size: 0.85rem;
+    line-height: 1.6;
     margin-bottom: 20px;
 }
 
@@ -407,6 +443,12 @@ body {
     
     .chapter-name {
         font-size: 0.75rem;
+    }
+    
+    .lecture-item {
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
     }
 }
 
