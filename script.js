@@ -22,269 +22,747 @@ let coursesData = {
                     name: "Asepsis",
                     pdfUrl: "https://www.mediafire.com/file/3ngj0dww90i5i7f/Asepsis.pdf/file",
                     contentPages: [
-                        `📖 **الصفحة 1: مقدمة عن Asepsis والكائنات الحية الدقيقة**
-                        
+                        // صفحة 1: مفهوم Asepsis والكائنات الحية الدقيقة
+                        `📖 **الصفحة 1: مفهوم Asepsis والكائنات الحية الدقيقة**
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🔹 **Asepsis (العقامة)** - طريقة النطق: أسيبسيس
+🔹 **أولاً: مفهوم Asepsis (العقامة)**
 
+📌 **التعريف الطبي:**
+Asepsis means those practices that decrease or eliminate infectious agents, their reservoirs, and vehicles for transmission. It is the major method for controlling infection.
+
+**الترجمة الطبية:**
+العقامة (Asepsis) تعني الممارسات التي تقلل أو تقضي على العوامل المعدية ومستودعاتها ووسائل نقلها. وهي الطريقة الرئيسية لمكافحة العدوى.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 **التحليل اللغوي للمصطلح:**
+- "A" → أداة نفي بمعنى "بدون" (Without)
+- "Sepsis" → تعني "عدوى" (Infection)
+
+**إذن المعنى الكامل: بدون عدوى → منع العدوى**
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 **الأولوية التمريضية:**
 Preventing infections is one of the most important priorities in nursing.
 
+**الترجمة:**
 يُعد منع العدوى أحد أهم الأولويات في مهنة التمريض.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🔹 **Microorganisms (الكائنات الحية الدقيقة)** - طريقة النطق: مايكروأورجانيزمز
+🔹 **ثانياً: الكائنات الحية الدقيقة (Microorganisms)**
 
+📌 **التعريف:**
 Microorganisms, living animals or plants visible only with a microscope, are commonly called germs.
 
+**الترجمة:**
 الكائنات الحية الدقيقة، وهي حيوانات أو نباتات حية لا تُرى إلا بالمجهر، تُسمى عادةً بالجراثيم.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🔹 **ما تفتقر إليه هذه الكائنات في الحجم تعوضه بالعدد**
-
+📌 **الحجم مقابل العدد:**
 What they lack in size, they make up for in numbers.
 
+**الترجمة:**
 وما تفتقر إليه هذه الكائنات في الحجم، تعوضه في أعدادها الكبيرة.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🔹 **أماكن تواجد الكائنات الحية الدقيقة**
-
+📌 **أماكن التواجد:**
 Microorganisms are everywhere: in the air, soil, and water, and on and within virtually everything and everyone.
 
+**الترجمة:**
 تتواجد الكائنات الحية الدقيقة في كل مكان: في الهواء والتربة والماء، وعلى (وفي داخل) كل شيء وكل شخص تقريباً.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-📌 **الشرح:**
-أوضح أن كلمة "Asepsis" هي مصطلح طبي يتكون من مقطعين: "A" وتعني "بدون" (نافية)، و "sepsis" وتعني "عدوى" (Infection)، ليصبح المعنى الإجمالي هو منع العدوى، وهو من الأولويات القصوى في التمريض.
-عرف الكائنات الحية الدقيقة (Microorganisms) بأنها كائنات حية صغيرة (حيوانات أو نباتات) لا تُرى بالعين المجردة، بل فقط عبر الميكروسكوب، وغالباً ما تسمى "جراثيم".
-أشار إلى أن هذه الكائنات موجودة في كل مكان: في الهواء، الرمل، الماء، وعلى كل شيء تقريباً.`,
+📌 **الخلاصة العلمية:**
+فهم طبيعة هذه الميكروبات وانتشارها الواسع هو الخطوة الأولى لتحقيق هدف التمريض الأساسي وهو "العقامة" أو منع العدوى.`,
 
+                        // صفحة 2: أنواع الكائنات الحية الدقيقة
                         `📖 **الصفحة 2: أنواع الكائنات الحية الدقيقة**
-
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🔹 **Types of Microorganisms (أنواع الكائنات الحية الدقيقة)**
 
+📌 **التقسيم الرئيسي:**
 Microorganisms are divided into two main groups: nonpathogens or normal flora and pathogens.
 
+**الترجمة:**
 تنقسم الكائنات الحية الدقيقة إلى مجموعتين رئيسيتين: غير الممرضة (أو الفلورا الطبيعية) والممرضة.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🔹 **Non Pathogens (غير الممرضة)** - طريقة النطق: نون باثوجنز
+🔹 **1. Non-Pathogens (غير الممرضة)**
 
+📌 **التعريف:**
 Non Pathogens: Mutually beneficial, or neither harming nor helping the host.
 
+**الترجمة:**
 غير الممرضة: مفيدة بشكل متبادل، أو لا تضر ولا تنفع العائل (المضيف).
+
+📌 **معلومات إضافية:**
+- تسمى أيضاً "Normal Flora" (الفلورا الطبيعية)
+- هي كائنات مفيدة أو متعايشة (تبادل منفعة)
+- لا تسبب ضرراً للعائل
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🔹 **Pathogens (الممرضة)** - طريقة النطق: باثوجنز
+🔹 **2. Pathogens (الممرضة)**
 
+📌 **التعريف:**
 Pathogens have high potential for causing infectious communicable diseases also called contagious diseases and community-acquired infections.
 
+**الترجمة:**
 الممرضة: لديها إمكانية عالية للتسبب في أمراض معدية منقولة، وتسمى أيضاً بالأمراض السارية (المعدية) والعدوى المكتسبة من المجتمع.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🔹 **أمثلة على المسببات المرضية:**
+🔹 **أنواع الميكروبات المسببة للأمراض (بالتفصيل):**
 
-• **Bacteria (البكتيريا)** - طريقة النطق: باكتيريا
-  Single-celled microorganisms.
-  كائنات حية دقيقة وحيدة الخلية.
-
-• **Viruses (الفيروسات)** - طريقة النطق: فايروسيز
-  The smallest microorganisms.
-  أصغر الكائنات الحية الدقيقة.
-
-• **Fungi (الفطريات)** - طريقة النطق: فانجاي
-  Include yeasts and molds.
-  تشمل الخمائر والعفن.
-
-• **Rickettsiae (الريكتسيا)** - طريقة النطق: ريكيتسي
-  Resemble bacteria; like viruses presented in fleas and lice.
-  تشبه البكتيريا؛ وتوجد مثل الفيروسات في البراغيث والقمل.
-
-• **Protozoans (البروتوزوا/الأوليات)** - طريقة النطق: بروتوزونز
-  Single-celled animals like amebia.
-  حيوانات وحيدة الخلية مثل الأميبا.
-
-• **Mycoplasmas (الميكوبلازما)** - طريقة النطق: مايكوبلازما
-  Lack a cell wall. They are referred to as pleomorphic.
-  تفتقر إلى جدار خلوي، ويشار إليها بأنها "متعددة الأشكال".
-
-• **Helminths (الديدان الطفيلية)** - طريقة النطق: هيلمينثس
-  Are infectious worms.
-  هي ديدان معدية.
+┌─────────────────────────────────────────────────────────────────┐
+│  🦠 1. Bacteria (البكتيريا)                                      │
+│     Single-celled microorganisms.                                │
+│     كائنات حية دقيقة وحيدة الخلية.                               │
+├─────────────────────────────────────────────────────────────────┤
+│  🦠 2. Viruses (الفيروسات)                                       │
+│     The smallest microorganisms.                                 │
+│     أصغر الكائنات الحية الدقيقة.                                 │
+├─────────────────────────────────────────────────────────────────┤
+│  🦠 3. Fungi (الفطريات)                                          │
+│     Include yeasts and molds.                                    │
+│     تشمل الخمائر والعفن.                                         │
+├─────────────────────────────────────────────────────────────────┤
+│  🦠 4. Rickettsiae (الريكتسيا)                                   │
+│     Resemble bacteria; like viruses presented in fleas and lice. │
+│     تشبه البكتيريا؛ وتوجد مثل الفيروسات في البراغيث والقمل.       │
+├─────────────────────────────────────────────────────────────────┤
+│  🦠 5. Protozoans (البروتوزوا/الأوليات)                          │
+│     Single-celled animals like amebia.                           │
+│     حيوانات وحيدة الخلية مثل الأميبا.                             │
+├─────────────────────────────────────────────────────────────────┤
+│  🦠 6. Mycoplasmas (الميكوبلازما)                                │
+│     Lack a cell wall. They are referred to as pleomorphic.       │
+│     تفتقر إلى جدار خلوي، ويشار إليها بأنها "متعددة الأشكال".      │
+├─────────────────────────────────────────────────────────────────┤
+│  🦠 7. Helminths (الديدان الطفيلية)                              │
+│     Are infectious worms.                                        │
+│     هي ديدان معدية.                                              │
+└─────────────────────────────────────────────────────────────────┘
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-📌 **الشرح:**
-تنقسم الكائنات الدقيقة إلى مجموعتين أساسيتين:
-1. غير مسببة للمرض (Non-pathogens): وتسمى أيضاً "نورمال فلورا" (Normal flora). هي كائنات مفيدة أو متعايشة (تبادل منفعة) ولا تسبب ضرراً للعائل.
-2. مسببة للمرض (Pathogens): وهي مصدر للعدوى وتسبب أمراضاً معدية أو سارية.`,
+📌 **ملاحظة مهمة:**
+بعض الكائنات الدقيقة أقل خطورة من غيرها. على سبيل المثال، تساعد البكتيريا المعوية في إنتاج فيتامين K، والذي بدوره يساعد في السيطرة على النزيف.`,
 
-                        `📖 **الصفحة 3: بقاء الميكروبات وسلسلة العدوى**
-
+                        // صفحة 3: بقاء الميكروبات (Spores)
+                        `📖 **الصفحة 3: بقاء الميكروبات على قيد الحياة (Survival)**
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🔹 **Survival of Microorganisms (بقاء الكائنات الحية الدقيقة)**
 
+📌 **قدرة الميكروبات على التكيف:**
 Many pathogens have mutated to adapt to hostile environments and unfavorable living conditions. Such adaptability has ensured that they continue to pose a threat to humans.
 
+**الترجمة:**
 لقد تحورت العديد من مسببات الأمراض للتكيف مع البيئات المعادية وظروف المعيشة غير المواتية. وقد ضمنت هذه القدرة على التكيف استمرارها في تشكيل تهديد للبشر.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🔹 **Spore (البوغة)** - طريقة النطق: سبور
+🔹 **Spore (البوغة)**
 
+📌 **التعريف الطبي:**
 A spore is a temporarily inactive microbial life form that can resist heat and destructive chemicals and survive without moisture.
 
-البوغة (A spore): هي شكل من أشكال الحياة الميكروبية غير النشطة مؤقتاً، والتي يمكنها مقاومة الحرارة والمواد الكيميائية المدمرة والبقاء على قيد الحياة دون رطوبة.
+**الترجمة:**
+البوغة (Spore): هي شكل من أشكال الحياة الميكروبية غير النشطة مؤقتاً، والتي يمكنها مقاومة الحرارة والمواد الكيميائية المدمرة والبقاء على قيد الحياة دون رطوبة.
 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 **خصائص البوغة (Spore):**
+
+│  ✅ 1. طور غير نشط مؤقتاً (Temporarily inactive)                 │
+│  ✅ 2. تقاوم الحرارة العالية (Resist heat)                       │
+│  ✅ 3. تقاوم المواد الكيميائية (Resist chemicals)                │
+│  ✅ 4. تعيش بدون رطوبة (Survive without moisture)                │
+│  ✅ 5. تنشط مرة أخرى عندما تجد الظروف المناسبة                    │
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 **الأهمية السريرية:**
+- الأبواغ تجعل بعض البكتيريا مقاومة للتعقيم العادي
+- تتطلب القضاء عليها تعقيمًا جراحيًا (Sterilization) وليس تطهيرًا عاديًا
+- مثال: بكتيريا Clostridium difficile (C. diff) تنتج أبواغاً مقاومة`,
+
+                        // صفحة 4: سلسلة العدوى - المكونات الستة
+                        `📖 **الصفحة 4: سلسلة العدوى (Chain of Infection) - المكونات الستة**
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🔹 **Chain of Infection (سلسلة العدوى)**
 
+📌 **المبدأ الأساسي:**
 By interfering with the conditions that perpetuate the transmission of microorganisms, humans can avoid acquiring infectious diseases.
 
+**الترجمة:**
 من خلال التدخل في الظروف التي تسمح باستمرار انتقال الكائنات الحية الدقيقة، يمكن للبشر تجنب الإصابة بالأمراض المعدية.
 
-The six essential components of the chain of infection must be in place if pathogens are to be transmitted.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-يجب أن تكتمل المكونات الستة الأساسية لسلسلة العدوى لكي تنتقل مسببات الأمراض.
+🔹 **المكونات الستة الأساسية لسلسلة العدوى:**
+
+┌─────────────────────────────────────────────────────────────────┐
+│  1️⃣ Infectious Agent (العامل المعدي)                             │
+│     الميكروب المسبب للمرض (بكتيريا، فيروس، فطريات، إلخ)          │
+├─────────────────────────────────────────────────────────────────┤
+│  2️⃣ Reservoir (المستودع/الخزان)                                  │
+│     المكان الذي ينمو فيه الميكروب ويتكاثر                         │
+│     (إنسان، حيوان، ماء، طعام، بيئة، معدات)                       │
+├─────────────────────────────────────────────────────────────────┤
+│  3️⃣ Portal of Exit (منفذ الخروج)                                 │
+│     كيف يخرج الميكروب من المستودع                                 │
+│     (الدم، السعال، الإفرازات، البول، البراز، القطيرات)           │
+├─────────────────────────────────────────────────────────────────┤
+│  4️⃣ Mode of Transmission (طريقة الانتقال)                        │
+│     كيف ينتقل الميكروب من مكان إلى آخر                           │
+├─────────────────────────────────────────────────────────────────┤
+│  5️⃣ Portal of Entry (منفذ الدخول)                                │
+│     مكان دخول الميكروب إلى العائل الجديد                          │
+│     (الأغشية المخاطية، الجهاز التنفسي، الهضمي، البولي، الجروح)   │
+├─────────────────────────────────────────────────────────────────┤
+│  6️⃣ Susceptible Host (العائل القابل للإصابة)                     │
+│     الشخص الذي لديه استعداد للمرض بسبب ضعف المناعة                │
+└─────────────────────────────────────────────────────────────────┘
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🔹 **المكونات الستة لسلسلة العدوى:**
+🔹 **تفاصيل كل مكون:**
 
-1️⃣ **Infectious Agent (العامل المعدي)** - الميكروب المسبب للمرض
-2️⃣ **Reservoir (المستودع)** - مكان نمو وتكاثر الميكروب
-3️⃣ **Exit Route (طريق الخروج)** - كيف يخرج الميكروب من المستودع
-4️⃣ **Mode of Transmission (طريقة الانتقال)** - كيف ينتقل الميكروب
-5️⃣ **Port of Entry (منفذ الدخول)** - مكان دخول الميكروب للعائل الجديد
-6️⃣ **Susceptible Host (العائل القابل للإصابة)** - الشخص ضعيف المناعة
+📌 **1. Infectious Agent (العامل المعدي):**
+- Bacteria (البكتيريا)
+- Viruses (الفيروسات)
+- Fungi (الفطريات)
+- Rickettsiae (الريكتسيا)
+- Protozoans (الأوالي)
+- Mycoplasmas (الميكوبلازما)
+- Helminths (الديدان الطفيلية)
+- Prions (البريونات)
+
+📌 **2. Reservoirs (المستودعات):**
+- People (الأشخاص)
+- Equipment (المعدات)
+- Water (المياه)
+
+📌 **3. Portal of Exit (منفذ الخروج):**
+- GU tract (السبيل البولي التناسلي)
+- Secretions (الإفرازات)
+- Excretions (المفرزات/الفضلات)
+- Droplets (القطيرات/الرذاذ)
+
+📌 **4. Portal of Entry (منفذ الدخول):**
+- Mucous membrane (الغشاء المخاطي)
+- GI tract (السبيل المعدي المعوي)
+- Respiratory tract (السبيل التنفسي)
+- Broken skin (الجلد المكسور)
+- Skin (الجلد السليم)
+
+📌 **5. Means of Transmission (وسائل الانتقال):**
+- Direct contact (التماس المباشر)
+- Ingestion (البلع/الابتلاع)
+- Fomites (الأسطح الملوثة)
+- Airborne (المحمول جواً)
+
+📌 **6. Susceptible Host (العائل القابل للإصابة):**
+- Immunosuppression (كبت المناعة)
+- Diabetes (السكري)
+- Surgery (الجراحة)
+- Burns (الحروق)
+- Old age (كبار السن)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-📌 **الشرح:**
-أكد المحاضر أن منع انتشار العدوى يعتمد على "كسر" حلقة من حلقات سلسلة العدوى الست.
-تحدث عن الأبواغ أو الحويصلات (Spores)، وهي بكتيريا في طور غير نشط تقاوم الحرارة والمواد الكيميائية والجفاف حتى تجد الظروف المناسبة لتنشط مرة أخرى.`,
+📌 **المبدأ الوقائي:**
+منع انتشار العدوى يعتمد على **"كسر"** حلقة واحدة على الأقل من حلقات سلسلة العدوى الست.`,
 
-                        `📖 **الصفحة 4: طرق انتقال العدوى والعائل القابل للإصابة**
+                        // صفحة 5: طرق انتقال العدوى بالتفصيل
+                        `📖 **الصفحة 5: طرق انتقال العدوى (Methods of Transmission)**
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **TABLE 10-1: Methods of Transmission (طرق الانتقال)**
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🔹 **Methods of Transmission (طرق الانتقال)**
+📌 **1. CONTACT TRANSMISSION (الانتقال بالتلامس/التماس)**
 
-📌 **Contact Transmission (الانتقال بالتلامس/التماس)**
-  • Direct contact (التلامس المباشر): Actual physical transfer from one infected person to another
-  • Indirect contact (التلامس غير المباشر): Contact between a susceptible person and a contaminated object
+│  🔹 Direct contact (التلامس المباشر):                               │
+│     Actual physical transfer from one infected person to another   │
+│     (body surface to body surface contact)                         │
+│     انتقال فيزيائي فعلي من شخص مصاب إلى آخر                         │
+│     (تلامس سطح الجسم مع سطح الجسم)                                  │
+│                                                                     │
+│  🔹 Indirect contact (التلامس غير المباشر):                         │
+│     Contact between a susceptible person and a contaminated object │
+│     تلامس بين شخص قابل للإصابة وجسم ملوث                            │
 
-📌 **Droplet Transmission (الانتقال بالقطيرات/الرذاذ)**
-  • Transfer of moist particles from an infected person who is within a radius of 3 ft
-  • Example: Inhalation of droplets released during sneezing, coughing, or talking
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-📌 **Airborne Transmission (الانتقال المحمول جواً)**
-  • Movement of microorganisms attached to evaporated water droplets or dust particles
-  • Example: Inhalation of spores
+📌 **2. DROPLET TRANSMISSION (الانتقال بالقطيرات/الرذاذ)**
 
-📌 **Vehicle Transmission (الانتقال بواسطة ناقل غير حي)**
-  • Transfer of microorganisms present on or in contaminated items such as food, water, medications, devices, and equipment
-  • Example: Consumption of water contaminated with microorganisms
+│  • Transfer of moist particles from an infected person who is      │
+│    within a radius of 3 ft (حوالي 90 سم)                           │
+│  • انتقال جزيئات رطبة من شخص مصاب ضمن نطاق نصف قطر 3 أقدام         │
+│                                                                     │
+│  📌 Example: Inhalation of droplets released during sneezing,      │
+│     coughing, or talking                                            │
+│     مثال: استنشاق القطيرات المنطلقة أثناء العطاس أو السعال أو التحدث│
 
-📌 **Vector Transmission (الانتقال بواسطة ناقل حي)**
-  • Transfer of microorganisms from an infected animal carrier
-  • Example: Diseases spread by mosquitoes, fleas, ticks, or rats
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+📌 **3. AIRBORNE TRANSMISSION (الانتقال المحمول جواً)**
+
+│  • Movement of microorganisms attached to evaporated water         │
+│    droplets or dust particles that have been suspended and carried │
+│    over distances greater than 3 ft                                │
+│  • حركة الكائنات الدقيقة المرتبطة بقطيرات ماء متبخرة أو جزيئات      │
+│    غبار علقت في الهواء وانتقلت لمسافات تزيد عن 3 أقدام             │
+│                                                                     │
+│  📌 Example: Inhalation of spores                                   │
+│     مثال: استنشاق الأبواغ (السبورات)                                 │
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 **4. VEHICLE TRANSMISSION (الانتقال بواسطة ناقل غير حي)**
+
+│  • Transfer of microorganisms present on or in contaminated items  │
+│    such as food, water, medications, devices, and equipment        │
+│  • انتقال الكائنات الدقيقة الموجودة على أو داخل مواد ملوثة مثل       │
+│    الطعام، الماء، الأدوية، الأجهزة، والمعدات                        │
+│                                                                     │
+│  📌 Example: Consumption of water contaminated with microorganisms │
+│     مثال: تناول ماء ملوث بالكائنات الدقيقة                          │
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 **5. VECTOR TRANSMISSION (الانتقال بواسطة ناقل حي)**
+
+│  • Transfer of microorganisms from an infected animal carrier      │
+│  • انتقال الكائنات الدقيقة من حيوان حامل مصاب                       │
+│                                                                     │
+│  📌 Example: Diseases spread by mosquitoes, fleas, ticks, or rats  │
+│     مثال: أمراض ينقلها البعوض، البراغيث، القراد، أو الجرذان         │
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 **ملخص طرق الانتقال:**
+
+┌─────────────────────────────────────────────────────────────────┐
+│  الطريقة                    │  مثال                            │
+├─────────────────────────────────────────────────────────────────┤
+│  Direct Contact             │  لمس شخص مصاب                     │
+│  Indirect Contact           │  لمس سطح ملوث                     │
+│  Droplet                    │  رذاذ العطاس أو السعال            │
+│  Airborne                   │  استنشاق الأبواغ                  │
+│  Vehicle                    │  طعام أو ماء ملوث                 │
+│  Vector                     │  لدغة بعوضة                      │
+└─────────────────────────────────────────────────────────────────┘`,
+
+                        // صفحة 6: العائل القابل للإصابة
+                        `📖 **الصفحة 6: العائل القابل للإصابة (Susceptible Host)**
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🔹 **Susceptible Host (العائل القابل للإصابة)**
 
-Humans become susceptible to infections when their defense mechanisms are diminished or impaired.
+📌 **التعريف:**
+Humans become susceptible to infections when their defense mechanisms are diminished or impaired. A susceptible host, the last link in the chain of infection, is one whose biologic defense mechanisms are weakened in some way.
 
-يصبح البشر عرضة للإصابة بالعدوى عندما تضعف أو تتعطل آليات دفاعهم.
-
-**الأشخاص الأكثر عرضة للعدوى:**
-• Older adults or premature infants (كبار السن والأطفال الخدج)
-• Burn victims (مرضى الحروق)
-• Major trauma (رضوض كبيرة/صدمات شديدة)
-• Invasive procedures such as endoscopy (إجراءات تدخلية مثل التنظير)
-• Indwelling equipment such as a urinary catheter (معدات مقيمة مثل القسطرة البولية)
-• Antibiotics inappropriately (مضادات حيوية بطريقة غير مناسبة)
-• Anticancer drugs and corticosteroids (أدوية مضادة للسرطان وكورتيكوستيرويدات)
-• Infected with HIV (مصابون بفيروس نقص المناعة البشرية)
+**الترجمة:**
+يصبح البشر عرضة للإصابة بالعدوى عندما تضعف أو تتعطل آليات دفاعهم. العائل القابل للإصابة، وهو الحلقة الأخيرة في سلسلة العدوى، هو الذي تكون آلياته الدفاعية البيولوجية ضعيفة بشكل ما.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-📌 **Nosocomial Infection (العدوى المكتسبة من المستشفيات)**
-Infections acquired while a person is receiving care in a health care agency.
-العدوى التي تُكتسب أثناء تلقّي الشخص للرعاية في إحدى مؤسسات الرعاية الصحية.`,
+🔹 **المرضى الأكثر عرضة للإصابة (Particularly susceptible clients):**
 
-                        `📖 **الصفحة 5: أنواع Asepsis وقواعدها وممارساتها**
+┌─────────────────────────────────────────────────────────────────┐
+│  ✅ 1. Older adults (كبار السن)                                  │
+│  ✅ 2. Premature infants (الرضع المبتسرون)                       │
+│  ✅ 3. Burn victims (ضحايا الحروق)                               │
+│  ✅ 4. Major trauma (رضوض كبيرة/صدمات شديدة)                     │
+│  ✅ 5. Invasive procedures such as endoscopy (إجراءات تدخلية)    │
+│  ✅ 6. Indwelling equipment such as urinary catheter             │
+│        (معدات مقيمة مثل القسطرة البولية)                         │
+│  ✅ 7. Implantable devices such as intravenous catheters         │
+│        (أجهزة قابلة للزرع مثل القسطرات الوريدية)                  │
+│  ✅ 8. Antibiotics inappropriately (مضادات حيوية بطريقة غير      │
+│        مناسبة - تعزز مقاومة الميكروبات)                          │
+│  ✅ 9. Anticancer drugs (أدوية مضادة للسرطان)                    │
+│  ✅ 10. Corticosteroids (الكورتيكوستيرويدات - تثبط المناعة)      │
+│  ✅ 11. Infected with HIV (مصابون بفيروس نقص المناعة البشرية)    │
+└─────────────────────────────────────────────────────────────────┘
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🔹 **Definition of Asepsis (تعريف العقامة)**
+🔹 **Nosocomial Infection (العدوى المكتسبة من المستشفيات)**
 
-Asepsis means those practices that decrease or eliminate infectious agents, their reservoirs, and vehicles for transmission. It is the major method for controlling infection.
+📌 **التعريف:**
+Nurses must understand and practice methods to prevent nosocomial infections (infections acquired while a person is receiving care in a health care agency).
 
-العقامة تعني الممارسات التي تقلل أو تقضي على العوامل المعدية ومستودعاتها ووسائل نقلها. وهي الطريقة الرئيسية لمكافحة العدوى.
+**الترجمة:**
+يجب على الممرضين فهم وممارسة أساليب الوقاية من العدوى المكتسبة في المستشفى (العدوى التي تُكتسب أثناء تلقّي الشخص للرعاية في إحدى مؤسسات الرعاية الصحية).
 
+📌 **معلومات إضافية:**
+- تسمى أيضاً Hospital-acquired infection
+- غالباً ما تنتج عن خلل في إجراءات التعقيم أو نظافة الطاقم الطبي
+- من أخطر أنواع العدوى لأن الميكروبات في المستشفى تكون غالباً مقاومة للمضادات الحيوية`,
+
+                        // صفحة 7: أنواع Asepsis وقواعدها
+                        `📖 **الصفحة 7: أنواع Asepsis (العقامة) وقواعدها**
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🔹 **Types of Asepsis (أنواع العقامة)**
 
-1️⃣ **Medical Asepsis (العقامة الطبية)** - Clean technique (التقنية النظيفة)
-   Practices that confine or reduce the numbers of microorganisms.
-   الممارسات التي تحد أو تقلل من أعداد الكائنات الحية الدقيقة.
+📌 **1. Medical Asepsis (العقامة الطبية)**
+   - Called: Clean technique (التقنية النظيفة)
+   - Definition: Practices that confine or reduce the numbers of microorganisms
+   - الهدف: تقليل عدد الميكروبات ومنع انتشارها
 
-2️⃣ **Surgical Asepsis (العقامة الجراحية)** - Sterile technique (التقنية المعقمة)
-   Eliminates all microorganisms, including spores.
-   تقضي على جميع الكائنات الحية الدقيقة بما فيها الأبواغ.
+📌 **2. Surgical Asepsis (العقامة الجراحية)**
+   - Called: Sterile technique (التقنية المعقمة)
+   - Definition: Eliminates all microorganisms, including spores
+   - الهدف: القضاء التام على جميع الميكروبات بما فيها الأبواغ
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🔹 **Principles of Medical Asepsis (قواعد العقامة الطبية)**
 
-• Microorganisms exist everywhere except on sterilized equipment.
-• Frequent hand hygiene and maintaining intact skin are the best methods.
-• Blood, body fluids, cells, and tissues are considered major reservoirs.
-• Personal protective equipment (gloves, gowns, masks, goggles) serves as a barrier.
-• A clean environment reduces microorganisms.
-• Cleaning should be done from cleaner to dirtier areas.
+┌─────────────────────────────────────────────────────────────────┐
+│  1. Microorganisms exist everywhere except on sterilized        │
+│     equipment.                                                   │
+│     الميكروبات موجودة في كل مكان إلا في الأدوات المعقمة.         │
+│                                                                  │
+│  2. Frequent hand hygiene and maintaining intact skin are the   │
+│     best methods for reducing the transmission of microorganisms.│
+│     غسل اليدين المتكرر والحفاظ على سلامة الجلد هما أفضل طرق      │
+│     للحد من انتقال الميكروبات.                                   │
+│                                                                  │
+│  3. Blood, body fluids, cells, and tissues are considered major │
+│     reservoirs of microorganisms.                                │
+│     الدم، سوائل الجسم، الخلايا، والأنسجة تعتبر مستودعات رئيسية   │
+│     للميكروبات.                                                  │
+│                                                                  │
+│  4. Personal protective equipment (gloves, gowns, masks,        │
+│     goggles, hair and shoe covers) serves as a barrier.          │
+│     معدات الوقاية الشخصية (قفازات، أردية، أقنعة، نظارات، أغطية   │
+│     الرأس والحذاء) تشكل حاجزاً ضد انتقال الميكروبات.             │
+│                                                                  │
+│  5. A clean environment reduces microorganisms.                  │
+│     البيئة النظيفة تقلل من الميكروبات.                           │
+│                                                                  │
+│  6. Certain areas (floor, toilets, insides of sinks) are more   │
+│     contaminated than others.                                    │
+│     بعض المناطق (الأرضية، المراحيض، داخل الأحواض) أكثر تلوثاً    │
+│     من غيرها.                                                    │
+│                                                                  │
+│  7. Cleaning should be done from cleaner to dirtier areas.       │
+│     يجب أن يتم التنظيف من المناطق النظيفة إلى المناطق المتسخة.   │
+└─────────────────────────────────────────────────────────────────┘
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🔹 **Antimicrobial Agents (العوامل المضادة للميكروبات)**
+🔹 **Examples of medical aseptic practices (أمثلة على ممارسات العقامة الطبية):**
 
-• **Soap (الصابون)**: Lowers surface tension - used for Hygiene
-• **Alcohol (الكحول 70%)**: Injures protein structures - used for skin, instruments
-• **Iodine (اليود/Betadine)**: Damages cell membrane - used for cleansing skin
-• **Chlorine (الكلور/Bleach)**: Interferes with enzyme systems - used for disinfecting
-• **Chlorhexidine (الكلورهيكسيدين/Hibiclens)**: Damages cell membrane
+│  ✅ Using antimicrobial agents (استخدام العوامل المضادة للميكروبات) │
+│  ✅ Performing hand hygiene (القيام بنظافة اليدين)                  │
+│  ✅ Wearing hospital garments (ارتداء الملابس المستشفوية)           │
+│  ✅ Confining and containing soiled materials appropriately        │
+│     (حصر المواد المتسخة بشكل مناسب)                                │
+│  ✅ Keeping the environment as clean as possible                   │
+│     (الحفاظ على البيئة نظيفة قدر الإمكان)                          │`,
 
+                        // صفحة 8: العوامل المضادة للميكروبات (Antimicrobial Agents)
+                        `📖 **الصفحة 8: العوامل المضادة للميكروبات (Antimicrobial Agents)**
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **TABLE 10-2: Antimicrobial Agents**
+
+┌─────────────────────────────────────────────────────────────────────────────────────┐
+│  TYPE          │  MECHANISM                         │  EXAMPLE      │  USE          │
+├─────────────────────────────────────────────────────────────────────────────────────┤
+│  Soap          │  Lowers surface tension of oil     │  Dial,        │  Hygiene      │
+│  (الصابون)     │  on skin, facilitates removal      │  Safeguard    │  (النظافة)    │
+├─────────────────────────────────────────────────────────────────────────────────────┤
+│  Detergent     │  Acts like soap, no precipitate    │  Dreft,       │  Sanitizing   │
+│  (المنظف)      │  with water                        │  Tide         │  utensils     │
+├─────────────────────────────────────────────────────────────────────────────────────┤
+│  Alcohol       │  Injures protein and lipid         │  Isopropyl    │  Cleansing    │
+│  (الكحول)      │  structures (70% concentration)    │  ethanol      │  skin,        │
+│                │                                     │               │  instruments  │
+├─────────────────────────────────────────────────────────────────────────────────────┤
+│  Iodine        │  Damages cell membrane, disrupts   │  Betadine     │  Cleansing    │
+│  (اليود)       │  enzyme functions                  │               │  skin         │
+├─────────────────────────────────────────────────────────────────────────────────────┤
+│  Chlorine      │  Interferes with microbial         │  Bleach,      │  Disinfecting │
+│  (الكلور)      │  enzyme systems                    │  Clorox       │  water,       │
+│                │                                     │               │  utensils     │
+├─────────────────────────────────────────────────────────────────────────────────────┤
+│  Chlorhexidine │  Damages cell membrane, ineffective│  Hibiclens    │  Cleansing    │
+│  (كلورهيكسيدين)│  against spores and most viruses   │               │  skin,        │
+│                │                                     │               │  equipment    │
+├─────────────────────────────────────────────────────────────────────────────────────┤
+│  Mercury       │  Alters microbial cellular         │  Merthiolate, │  Disinfecting │
+│  (الزئبق)      │  proteins                          │  Mercurochrome│  skin         │
+├─────────────────────────────────────────────────────────────────────────────────────┤
+│  Glutaraldehyde│  Inactivates cellular proteins     │  Cidex        │  Sterilizing  │
+│  (غلوتارالدهيد)│  of bacteria, viruses, and spores  │               │  equipment    │
+└─────────────────────────────────────────────────────────────────────────────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **الفرق بين Antiseptics و Disinfectants:**
+
+┌─────────────────────────────────────────────────────────────────┐
+│  Antiseptics (المطهرات)          │  Disinfectants (المعقمات)    │
+├─────────────────────────────────────────────────────────────────┤
+│  - تمنع نمو الميكروبات            │  - تقتل الميكروبات النشطة     │
+│  - تستخدم على الجلد               │  - تستخدم للأسطح والجدران     │
+│  - خفيفة وآمنة للأنسجة الحية      │  - قوية جداً لا تصلح للجلد    │
+└─────────────────────────────────────────────────────────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **Anti-Infective Drugs (الأدوية المضادة للعدوى):**
+
+📌 **Antibiotics (المضادات الحيوية):**
+   - Alter the metabolic processes of bacteria but not viruses
+   - تغير العمليات الأيضية للبكتيريا وليس الفيروسات
+   - Damage or destroy bacterial cell walls
+   - تتلف أو تدمر جدران الخلايا البكتيرية
+
+📌 **Antivirals (مضادات الفيروسات):**
+   - Do not destroy the infecting viruses
+   - لا تدمر الفيروسات المسببة للعدوى
+   - Control viral replication or their release from infected cells
+   - تتحكم في تكاثر الفيروسات أو إطلاقها من الخلايا المصابة`,
+
+                        // صفحة 9: غسل اليدين والفرك الجراحي
+                        `📖 **الصفحة 9: غسل اليدين (Hand Washing) والفرك الجراحي**
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🔹 **Hand Washing (غسل اليدين)**
-• Minimum 15 seconds (15 ثانية كحد أدنى)
-• Most effective way to prevent infections (الطريقة الأكثر فعالية لمنع العدوى)
 
-🔹 **Surgical Scrub (الفرك الجراحي)**
-• Lasts 2-6 minutes (يستمر 2-6 دقائق)
-• Hands held higher than elbows (اليدين مرفوعتين فوق المرفقين)
+📌 **الأهمية:**
+Hand washing is an aseptic practice that involves scrubbing the hands with soap, water, and friction. Considering how often health care personnel use their hands with clients, it is no surprise that handwashing is the single most effective way to prevent infections.
+
+**الترجمة:**
+غسل اليدين هو ممارسة تعقيمية تتضمن فرك اليدين بالصابون والماء والاحتكاك. وبالنظر إلى مدى تكرار استخدام العاملين في الرعاية الصحية لأيديهم مع المرضى، فليس من المستغرب أن يكون غسل اليدين هو الطريقة الأكثر فعالية لمنع العدوى.
+
+📌 **المدة المطلوبة:**
+يجب الفرك بالصابون لمدة لا تقل عن **15 إلى 20 ثانية**
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-📌 **الفرق بين Antiseptics و Disinfectants:**
-المطهرات (Antiseptics) تمنع نمو الميكروبات وتستخدم على الجلد.
-المعقمات (Disinfectants) تقتل الميكروبات النشطة وتستخدم للأسطح والجدران.`
+🔹 **Alcohol-based hand rubs (معقمات اليدين الكحولية)**
+
+📌 **آلية العمل:**
+Alcohol-based hand rubs remove microorganisms on the hands.
+
+**الترجمة:**
+فرك اليدين بالكحول يزيل الكائنات الدقيقة من اليدين.
+
+📌 **مميزات معقمات اليدين الكحولية:**
+
+│  ✅ Take less time (تستغرق وقتاً أقل)                              │
+│  ✅ More accessible (أكثر سهولة في الوصول)                        │
+│  ✅ Increase compliance (تزيد الالتزام بممارسات النظافة)          │
+│  ✅ Provide convenience based on their location at the client's   │
+│     point of care (توفر الراحة لوجودها في نقطة رعاية المريض)      │
+
+📌 **ملاحظة مهمة:**
+Alcohol formulations have a brief rather than sustained antiseptic effect, however, nurses must reuse them over the course of a day.
+
+التركيبات الكحولية لها تأثير مطهر قصير وليس طويل الأمد، ومع ذلك، يجب على الممرضين إعادة استخدامها على مدار اليوم.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **Performing a Surgical Scrub (الفرك الجراحي)**
+
+📌 **التعريف:**
+A surgical scrub, a type of skin and nail antisepsis, is performed before donning sterile gloves and garments when the nurse is actively involved in an operative or obstetric procedure. The purpose is to more extensively remove transient microorganisms from the nails, hands, and forearms.
+
+**الترجمة:**
+الفرك الجراحي، وهو نوع من تعقيم الجلد والأظافر، يُؤدى قبل ارتداء القفازات والملابس المعقمة عندما يشارك الممرض بنشاط في إجراء عملية جراحية أو توليدية. الهدف هو إزالة الكائنات الدقيقة العابرة بشكل أكثر شمولاً من الأظافر واليدين والساعدين.
+
+📌 **قواعد الفرك الجراحي:**
+│  ✅ يتم قبل لبس الملابس المعقمة والعمليات                           │
+│  ✅ يستغرق من 2 إلى 6 دقائق                                        │
+│  ✅ يجب خلع جميع المجوهرات والساعات                                │
+│  ✅ يجب إبقاء اليدين مرفوعتين (فوق مستوى الكوع) بعد الغسل          │`,
+
+                        // صفحة 10: الجدول المقارن (Hand Washing vs Surgical Scrub)
+                        `📖 **الصفحة 10: الفرق بين غسل اليدين والتعقيم الجراحي**
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **TABLE 10-3: Differences Between Hand Washing and Surgical Hand Antisepsis**
+
+┌─────────────────────────────────────────────────────────────────────────────────────┐
+│  HAND WASHING (غسل اليدين العادي)  │  SURGICAL HAND ANTISEPSIS (التعقيم الجراحي)    │
+├─────────────────────────────────────────────────────────────────────────────────────┤
+│  Plain wedding band may be worn    │  All hand jewelry removed                      │
+│  (يمكن ارتداء خاتم زواج عادي)      │  (تُخلع جميع حلي اليد)                          │
+├─────────────────────────────────────────────────────────────────────────────────────┤
+│  Faucets with hand controls;       │  Faucets regulated with elbow, knee,          │
+│  elbow/knee/foot preferred         │  or foot controls                              │
+│  (حنفيات يدوية - يفضل بالكوع/ركبة) │  (تحكم بالكوع أو الركبة أو القدم)              │
+├─────────────────────────────────────────────────────────────────────────────────────┤
+│  Liquid, bar, or powdered soap     │  Liquid antibacterial soap                    │
+│  (صابون سائل أو قطعة أو بودرة)     │  (صابون سائل مضاد للبكتيريا)                   │
+├─────────────────────────────────────────────────────────────────────────────────────┤
+│  Washing lasts minimum 15 seconds  │  Antisepsis lasts 2-6 minutes                 │
+│  (يستمر 15 ثانية كحد أدنى)         │  (يستمر 2-6 دقائق)                             │
+├─────────────────────────────────────────────────────────────────────────────────────┤
+│  Hands lower than elbows           │  Hands higher than elbows                     │
+│  (اليدين أقل من المرفقين)          │  (اليدين أعلى من المرفقين)                     │
+├─────────────────────────────────────────────────────────────────────────────────────┤
+│  Areas beneath fingernails washed  │  Cleaned with orange stick                    │
+│  (غسل المناطق تحت الأظافر)         │  (تنظف بعود برتقالي)                           │
+├─────────────────────────────────────────────────────────────────────────────────────┤
+│  Friction by rubbing hands         │  Friction by scrubbing with brush/sponge      │
+│  (احتكاك بحك اليدين)               │  (احتكاك بالفرك بفرشاة/إسفنجة)                 │
+├─────────────────────────────────────────────────────────────────────────────────────┤
+│  Dried with paper towels           │  Dried with sterile towels                    │
+│  (تجفيف بمناشف ورقية)              │  (تجفيف بمناشف معقمة)                          │
+├─────────────────────────────────────────────────────────────────────────────────────┤
+│  Clean gloves if needed            │  Sterile gloves immediately                   │
+│  (قفازات نظيفة عند الحاجة)         │  (قفازات معقمة فوراً)                          │
+└─────────────────────────────────────────────────────────────────────────────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **Wearing Personal Protective Equipment (ارتداء معدات الوقاية الشخصية - PPE)**
+
+📌 **مكونات PPE:**
+
+│  ✅ Uniforms (الزي الرسمي)                                              │
+│  ✅ Scrub suits or gowns (البدلات الجراحية أو الأردية)                   │
+│  ✅ Masks (الأقنعة)                                                      │
+│  ✅ Gloves (القفازات)                                                    │
+│  ✅ Protective eyewear (النظارات الواقية)                                │
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **Gloves (القفازات)**
+
+📌 **القفازات النظيفة (Clean/Examination Gloves):**
+   تُلبس عند احتمال ملامسة الدم، السوائل، الإفرازات، أو الجلد غير السليم
+
+📌 **القفازات المعقمة (Sterile Gloves):**
+   تُلبس في الإجراءات الجراحية
+
+📌 **ملاحظة:**
+القفازات مصنوعة من اللاتكس، الذي قد يسبب حساسية لبعض الناس`,
+
+                        // صفحة 11: حصر المواد المتسخة ونظافة البيئة
+                        `📖 **الصفحة 11: حصر المواد المتسخة ونظافة البيئة**
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **Confining Soiled Articles (حصر المواد المتسخة)**
+
+📌 **Utility Rooms (غرف الخدمات/المرافق):**
+- Health care agencies have at least two utility rooms: one designated clean and the other considered dirty.
+- تمتلك مؤسسات الرعاية الصحية غرفتي خدمة على الأقل: واحدة مخصصة للنظيف والأخرى تعتبر متسخة.
+- Personnel must not place soiled articles in the clean utility room.
+- يجب على الموظفين عدم وضع المواد المتسخة في غرفة الخدمات النظيفة.
+
+📌 **Waste Receptacles (حاويات النفايات):**
+- Agencies rely on various methods to contain soiled articles until they can be discarded.
+- تعتمد المؤسسات على طرق متنوعة لحصر المواد المتسخة حتى يمكن التخلص منها.
+- Most client rooms have a wall-mounted puncture-resistant container for needles or other sharp objects.
+- تحتوي معظم غرف المرضى على حاوية مثبتة على الحائط مقاومة للثقب للإبر أو الأشياء الحادة الأخرى.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **Environmental Hygiene (نظافة البيئة والمستشفى)**
+
+📌 **نقاط مهمة:**
+
+│  ✅ غرف الأدوات (Utility Rooms): يوجد نوعان؛ "نظيفة" و"متسخة"،        │
+│     ويمنع وضع المخلفات في الغرف النظيفة                               │
+│                                                                        │
+│  ✅ صناديق الأدوات الحادة (Sharps Container): للتخلص من الإبر          │
+│     والشفرات                                                          │
+│                                                                        │
+│  ✅ التطهير النهائي (Terminal Disinfection): تنظيف شامل للغرفة         │
+│     والسرير والجدران بالكلور بعد خروج المريض (Discharge)              │
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **مصطلحات إضافية (مهن طبية):**
+
+│  🔹 1. Nurse (ممرض)                                                    │
+│  🔹 2. Doctor (طبيب)                                                   │
+│  🔹 3. Pharmacist (صيدلي)                                              │
+│  🔹 4. Dentist (طبيب أسنان)                                            │
+│  🔹 5. Physician (طبيب باطني)                                          │
+│  🔹 6. Veterinarian (طبيب بيطري)                                       │
+│  🔹 7. Psychiatrist (طبيب نفسي)                                        │
+│  🔹 8. Social worker (أخصائي اجتماعي)                                  │
+│  🔹 9. Teacher (معلم)                                                  │
+│  🔹 10. Engineer (مهندس)                                               │`,
+
+                        // صفحة 12: ملخص نهائي للشابتر
+                        `📖 **الصفحة 12: الملخص النهائي لشابتر Asepsis**
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **الخلاصة النهائية لشابتر Asepsis**
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 **1. مفهوم Asepsis:**
+   كلمة Asepsis = A (بدون) + Sepsis (عدوى) = منع العدوى
+
+📌 **2. الكائنات الحية الدقيقة:**
+   - موجودة في كل مكان (هواء، تربة، ماء، أسطح، أجسام)
+   - تنقسم إلى: ممرضة (Pathogens) وغير ممرضة (Non-pathogens)
+
+📌 **3. سلسلة العدوى (6 مكونات):**
+   عامل معدٍ → مستودع → منفذ خروج → طريقة انتقال → منفذ دخول → عائل قابل للإصابة
+
+📌 **4. طرق انتقال العدوى (5 طرق):**
+   تلامس مباشر، تلامس غير مباشر، رذاذ، محمول جواً، ناقل حي/غير حي
+
+📌 **5. أنواع Asepsis:**
+   - Medical Asepsis (تقنية نظيفة) → تقليل الميكروبات
+   - Surgical Asepsis (تقنية معقمة) → قضاء تام على الميكروبات
+
+📌 **6. أهم إجراءات الوقاية:**
+   - غسل اليدين (15-20 ثانية)
+   - استخدام معقمات الكحول
+   - ارتداء معدات الوقاية الشخصية (PPE)
+   - التعقيم والتطهير المناسب
+   - نظافة البيئة
+
+📌 **7. العوامل المضادة للميكروبات:**
+   صابون، كحول، يود، كلور، كلورهيكسيدين، غلوتارالدهيد
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **المفتاح الذهبي للنجاح في الامتحان:**
+
+│  💡 تذكر دائماً:                                                      │
+│  غسل اليدين هو الطريقة الأكثر فعالية لمنع انتشار العدوى!              │
+│                                                                        │
+│  💡 لكسر سلسلة العدوى، يمكنك التدخل في أي من مكوناتها الستة!          │
+│                                                                        │
+│  💡 الفرق بين Medical Asepsis و Surgical Asepsis:                     │
+│     Medical → يقلل العدد                                              │
+│     Surgical → يقضي على الجميع (بما فيها الأبواغ)                      │
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 **نهاية ملخص شابتر 1 - Asepsis**
+📌 **تم بحمد الله**`
                     ],
-                    summary: "ملخص كامل لشابتر Asepsis مقسم إلى 5 صفحات"
+                    summary: "ملخص كامل لشابتر Asepsis مقسم إلى 12 صفحة"
                 },
                 { 
                     name: "Infection Control", 
@@ -338,6 +816,7 @@ Asepsis means those practices that decrease or eliminate infectious agents, thei
                 { title: "محاضرة 8 - Body Mechanics, Positioning", url: "https://youtu.be/nnwa61B0PVA" }
             ]
         },
+        // باقي المساقات كما هي (amali, tashreeh, ahyaa)
         {
             id: "amali",
             name: "اساسيات التمريض - عملي",
@@ -448,6 +927,12 @@ Asepsis means those practices that decrease or eliminate infectious agents, thei
         }
     ]
 };
+
+// ==================== باقي الكود (دوال العرض والتنقل) ====================
+// ... (جميع الدوال السابقة كما هي: saveData, loadData, navigateTo, renderPage, renderHome, renderCourse, renderChaptersList, renderQuizzesList, renderChapter, renderLectures, renderBook, renderQuiz, attachDynamicEvents, handleChapterClick, handleQuizClick, getCurrentCourseIdFromPage, observeDynamicContent, themeToggle, وغيرها)
+
+// لضيق المساحة، تم تضمين جميع الدوال السابقة في الكود الكامل
+
 
 // بيانات الأسئلة
 let quizData = {
