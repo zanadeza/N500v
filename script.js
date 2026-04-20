@@ -50,6 +50,9 @@ let quizData = {
         0: [
             { question: "ما هو تعريف التمريض؟", options: ["مهنة مساعدة", "علم وفن", "مجرد وظيفة", "تطبيب"], correct: 1 },
             { question: "من هي مؤسسة التمريض الحديث؟", options: ["كلارا بارتون", "فلورنس نايتينجيل", "ماري سيكول", "مارجريت سانجر"], correct: 1 }
+        ],
+        1: [
+            { question: "في أي عام تأسست أول مدرسة تمريض حديثة؟", options: ["1850", "1860", "1870", "1880"], correct: 1 }
         ]
     },
     tashreeh: {
@@ -85,82 +88,49 @@ if (!currentUser) {
     localStorage.setItem('nursingUser', currentUser);
 }
 
-// ==================== نظام الصفحات (Routing) ====================
+// ==================== نظام الصفحات ====================
 let currentRoute = {
-    page: 'home', // home, course, chapter, lectures, book, quiz
+    page: 'home',
     courseId: null,
     chapterIndex: null
 };
 
+// دالة التنقل الرئيسية
 function navigateTo(page, params = {}) {
-    // تحديث URL
     let url = `#${page}`;
     if (params.courseId) url += `/${params.courseId}`;
-    if (params.chapterIndex !== undefined) url += `/${params.chapterIndex}`;
+    if (params.chapterIndex !== undefined && params.chapterIndex !== null) url += `/${params.chapterIndex}`;
     window.location.hash = url;
-    
-    // تحديث الحالة الحالية
-    currentRoute = { page, ...params };
-    
-    // عرض الصفحة المناسبة
-    renderPage();
 }
 
+// عرض الصفحة حسب المسار
 function renderPage() {
     const main = document.getElementById('mainContent');
+    if (!main) return;
     
-    switch(currentRoute.page) {
-        case 'home':
-            renderHome(main);
-            break;
-        case 'course':
-            renderCourse(main, currentRoute.courseId);
-            break;
-        case 'chapter':
-            renderChapter(main, currentRoute.courseId, currentRoute.chapterIndex);
-            break;
-        case 'lectures':
-            renderLectures(main, currentRoute.courseId);
-            break;
-        case 'book':
-            renderBook(main, currentRoute.courseId);
-            break;
-        case 'quiz':
-            renderQuiz(main, currentRoute.courseId, currentRoute.chapterIndex);
-            break;
-        default:
-            renderHome(main);
+    const hash = window.location.hash.slice(1);
+    const parts = hash.split('/');
+    const page = parts[0] || 'home';
+    
+    if (page === 'home' || page === '') {
+        renderHome(main);
+    } else if (page === 'course' && parts[1]) {
+        renderCourse(main, parts[1]);
+    } else if (page === 'chapter' && parts[1] && parts[2]) {
+        renderChapter(main, parts[1], parseInt(parts[2]));
+    } else if (page === 'lectures' && parts[1]) {
+        renderLectures(main, parts[1]);
+    } else if (page === 'book' && parts[1]) {
+        renderBook(main, parts[1]);
+    } else if (page === 'quiz' && parts[1] && parts[2]) {
+        renderQuiz(main, parts[1], parseInt(parts[2]));
+    } else {
+        renderHome(main);
     }
 }
 
-// استمع لتغيرات الـ Hash
-window.addEventListener('hashchange', () => {
-    const hash = window.location.hash.slice(1);
-    const parts = hash.split('/');
-    
-    if (!hash || parts[0] === 'home') {
-        currentRoute = { page: 'home' };
-    } else if (parts[0] === 'course' && parts[1]) {
-        currentRoute = { page: 'course', courseId: parts[1] };
-    } else if (parts[0] === 'chapter' && parts[1] && parts[2]) {
-        currentRoute = { page: 'chapter', courseId: parts[1], chapterIndex: parseInt(parts[2]) };
-    } else if (parts[0] === 'lectures' && parts[1]) {
-        currentRoute = { page: 'lectures', courseId: parts[1] };
-    } else if (parts[0] === 'book' && parts[1]) {
-        currentRoute = { page: 'book', courseId: parts[1] };
-    } else if (parts[0] === 'quiz' && parts[1] && parts[2]) {
-        currentRoute = { page: 'quiz', courseId: parts[1], chapterIndex: parseInt(parts[2]) };
-    } else {
-        currentRoute = { page: 'home' };
-    }
-    
-    renderPage();
-});
-
-// ==================== عرض الصفحات ====================
+// ==================== عرض الصفحة الرئيسية ====================
 function renderHome(container) {
-    const course = coursesData.courses.find(c => c.id === currentRoute.courseId);
-    
     container.innerHTML = `
         <div class="welcome-card">
             <div class="avatar">👩‍⚕️</div>
@@ -175,22 +145,32 @@ function renderHome(container) {
     `;
     
     const grid = document.getElementById('coursesGrid');
-    grid.innerHTML = coursesData.courses.map(c => `
-        <div class="course-card" data-course-id="${c.id}">
-            <div class="course-icon">${c.icon}</div>
-            <h3>${c.name}</h3>
-            <p>${c.description}</p>
-        </div>
-    `).join('');
-    
-    document.querySelectorAll('.course-card').forEach(card => {
-        card.addEventListener('click', () => navigateTo('course', { courseId: card.dataset.courseId }));
-    });
+    if (grid) {
+        grid.innerHTML = coursesData.courses.map(c => `
+            <div class="course-card" data-course-id="${c.id}">
+                <div class="course-icon">${c.icon}</div>
+                <h3>${c.name}</h3>
+                <p>${c.description}</p>
+            </div>
+        `).join('');
+        
+        document.querySelectorAll('.course-card').forEach(card => {
+            card.addEventListener('click', (e) => {
+                e.preventDefault();
+                const courseId = card.getAttribute('data-course-id');
+                navigateTo('course', { courseId });
+            });
+        });
+    }
 }
 
+// ==================== عرض صفحة المساق ====================
 function renderCourse(container, courseId) {
     const course = coursesData.courses.find(c => c.id === courseId);
-    if (!course) return navigateTo('home');
+    if (!course) {
+        navigateTo('home');
+        return;
+    }
     
     container.innerHTML = `
         <div class="nav-bar">
@@ -206,7 +186,7 @@ function renderCourse(container, courseId) {
             </div>
         </div>
         
-        <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 20px;">
+        <div class="button-group">
             <button class="add-btn" id="chaptersBtn">📖 الشباتر والدروس</button>
             <button class="add-btn" id="lecturesBtn">🎥 المحاضرات</button>
             <button class="add-btn" id="bookBtn">📕 الكتاب المقرر</button>
@@ -218,20 +198,18 @@ function renderCourse(container, courseId) {
     
     document.getElementById('backBtn').addEventListener('click', () => navigateTo('home'));
     document.getElementById('chaptersBtn').addEventListener('click', () => {
-        document.getElementById('dynamicContent').innerHTML = renderChaptersList(course);
+        const contentDiv = document.getElementById('dynamicContent');
+        if (contentDiv) contentDiv.innerHTML = renderChaptersList(course);
     });
-    document.getElementById('lecturesBtn').addEventListener('click', () => {
-        navigateTo('lectures', { courseId: course.id });
-    });
-    document.getElementById('bookBtn').addEventListener('click', () => {
-        navigateTo('book', { courseId: course.id });
-    });
+    document.getElementById('lecturesBtn').addEventListener('click', () => navigateTo('lectures', { courseId: course.id }));
+    document.getElementById('bookBtn').addEventListener('click', () => navigateTo('book', { courseId: course.id }));
     document.getElementById('quizzesBtn').addEventListener('click', () => {
-        document.getElementById('dynamicContent').innerHTML = renderQuizzesList(course);
+        const contentDiv = document.getElementById('dynamicContent');
+        if (contentDiv) contentDiv.innerHTML = renderQuizzesList(course);
     });
     
-    // عرض الشباتر افتراضياً
-    document.getElementById('dynamicContent').innerHTML = renderChaptersList(course);
+    const contentDiv = document.getElementById('dynamicContent');
+    if (contentDiv) contentDiv.innerHTML = renderChaptersList(course);
 }
 
 function renderChaptersList(course) {
@@ -248,15 +226,6 @@ function renderChaptersList(course) {
                 </div>
             `).join('')}
         </div>
-    ` + `
-    <script>
-        document.querySelectorAll('.chapter-item').forEach(el => {
-            el.addEventListener('click', () => {
-                const idx = el.dataset.chapter;
-                window.navigateTo('chapter', { courseId: '${course.id}', chapterIndex: idx });
-            });
-        });
-    <\/script>
     `;
 }
 
@@ -274,21 +243,16 @@ function renderQuizzesList(course) {
                 </div>
             `).join('')}
         </div>
-    ` + `
-    <script>
-        document.querySelectorAll('.chapter-item').forEach(el => {
-            el.addEventListener('click', () => {
-                const idx = el.dataset.quiz;
-                window.navigateTo('quiz', { courseId: '${course.id}', chapterIndex: idx });
-            });
-        });
-    <\/script>
     `;
 }
 
+// ==================== عرض صفحة الشابتر ====================
 function renderChapter(container, courseId, chapterIndex) {
     const course = coursesData.courses.find(c => c.id === courseId);
-    if (!course || !course.chapters[chapterIndex]) return navigateTo('home');
+    if (!course || !course.chapters[chapterIndex]) {
+        navigateTo('home');
+        return;
+    }
     
     const chapterName = course.chapters[chapterIndex];
     
@@ -318,9 +282,13 @@ function renderChapter(container, courseId, chapterIndex) {
     document.getElementById('takeQuizBtn').addEventListener('click', () => navigateTo('quiz', { courseId, chapterIndex }));
 }
 
+// ==================== عرض المحاضرات ====================
 function renderLectures(container, courseId) {
     const course = coursesData.courses.find(c => c.id === courseId);
-    if (!course) return navigateTo('home');
+    if (!course) {
+        navigateTo('home');
+        return;
+    }
     
     container.innerHTML = `
         <div class="nav-bar">
@@ -337,16 +305,24 @@ function renderLectures(container, courseId) {
     function renderLecturesList() {
         const grid = document.getElementById('lecturesGrid');
         if (!grid) return;
-        grid.innerHTML = (course.lectures || []).map((lec, idx) => `
+        
+        const lectures = course.lectures || [];
+        if (lectures.length === 0) {
+            grid.innerHTML = '<p style="text-align: center; color: var(--text-secondary); padding: 20px;">لا توجد محاضرات حالياً. أضف محاضرة جديدة!</p>';
+            return;
+        }
+        
+        grid.innerHTML = lectures.map((lec, idx) => `
             <div class="lecture-item">
                 <a href="${lec.url}" target="_blank" class="lecture-link">🎬 ${lec.title}</a>
-                <button class="delete-lecture" data-idx="${idx}" style="background: #e74c3c; color: white; border: none; padding: 4px 12px; border-radius: 15px; cursor: pointer; font-size: 0.7rem;">حذف</button>
+                <button class="delete-lecture" data-idx="${idx}">حذف</button>
             </div>
         `).join('');
         
         document.querySelectorAll('.delete-lecture').forEach(btn => {
-            btn.addEventListener('click', () => {
-                const idx = parseInt(btn.dataset.idx);
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                const idx = parseInt(btn.getAttribute('data-idx'));
                 course.lectures.splice(idx, 1);
                 saveData();
                 renderLecturesList();
@@ -370,9 +346,13 @@ function renderLectures(container, courseId) {
     });
 }
 
+// ==================== عرض الكتاب ====================
 function renderBook(container, courseId) {
     const course = coursesData.courses.find(c => c.id === courseId);
-    if (!course) return navigateTo('home');
+    if (!course) {
+        navigateTo('home');
+        return;
+    }
     
     container.innerHTML = `
         <div class="nav-bar">
@@ -394,7 +374,7 @@ function renderBook(container, courseId) {
     document.getElementById('backToCourse').addEventListener('click', () => navigateTo('course', { courseId }));
     document.getElementById('editBookBtn').addEventListener('click', () => {
         const newUrl = prompt("أدخل رابط الكتاب (PDF أو رابط مباشر):", course.bookUrl);
-        if (newUrl) {
+        if (newUrl !== null) {
             course.bookUrl = newUrl;
             saveData();
             renderBook(container, courseId);
@@ -402,9 +382,13 @@ function renderBook(container, courseId) {
     });
 }
 
+// ==================== عرض الاختبار ====================
 function renderQuiz(container, courseId, chapterIndex) {
     const course = coursesData.courses.find(c => c.id === courseId);
-    if (!course || !course.chapters[chapterIndex]) return navigateTo('home');
+    if (!course || !course.chapters[chapterIndex]) {
+        navigateTo('home');
+        return;
+    }
     
     const chapterName = course.chapters[chapterIndex];
     const questions = quizData[courseId]?.[chapterIndex] || [];
@@ -428,19 +412,21 @@ function renderQuiz(container, courseId, chapterIndex) {
     
     if (questions.length > 0) {
         const quizDiv = document.getElementById('quizQuestions');
-        quizDiv.innerHTML = questions.map((q, idx) => `
-            <div class="question-item">
-                <div class="question-text">${idx+1}. ${q.question}</div>
-                <div class="options">
-                    ${q.options.map((opt, optIdx) => `
-                        <label class="option">
-                            <input type="radio" name="q${idx}" value="${optIdx}">
-                            ${opt}
-                        </label>
-                    `).join('')}
+        if (quizDiv) {
+            quizDiv.innerHTML = questions.map((q, idx) => `
+                <div class="question-item">
+                    <div class="question-text">${idx+1}. ${q.question}</div>
+                    <div class="options">
+                        ${q.options.map((opt, optIdx) => `
+                            <label class="option">
+                                <input type="radio" name="q${idx}" value="${optIdx}">
+                                ${opt}
+                            </label>
+                        `).join('')}
+                    </div>
                 </div>
-            </div>
-        `).join('');
+            `).join('');
+        }
         
         document.getElementById('submitQuiz').addEventListener('click', () => {
             let score = 0;
@@ -450,12 +436,14 @@ function renderQuiz(container, courseId, chapterIndex) {
             });
             const resultDiv = document.getElementById('quizResult');
             const percent = Math.round(score/questions.length*100);
-            resultDiv.innerHTML = `
-                <div class="result-box" style="background: ${percent >= 60 ? '#4caf50' : '#e74c3c'}; color: white;">
-                    ✅ نتيجتك: ${score} من ${questions.length} (${percent}%)
-                    ${percent >= 60 ? '🎉 ممتاز! اجتزت الاختبار' : '📚 حاول مراجعة الشابتر مرة أخرى'}
-                </div>
-            `;
+            if (resultDiv) {
+                resultDiv.innerHTML = `
+                    <div class="result-box" style="background: ${percent >= 60 ? '#4caf50' : '#e74c3c'}; color: white;">
+                        ✅ نتيجتك: ${score} من ${questions.length} (${percent}%)
+                        ${percent >= 60 ? '🎉 ممتاز! اجتزت الاختبار' : '📚 حاول مراجعة الشابتر مرة أخرى'}
+                    </div>
+                `;
+            }
         });
     }
     
@@ -463,38 +451,92 @@ function renderQuiz(container, courseId, chapterIndex) {
     document.getElementById('backToCourse').addEventListener('click', () => navigateTo('course', { courseId }));
 }
 
-// ==================== الوضع الليلي ====================
-const themeToggle = document.getElementById('themeToggle');
-if (localStorage.getItem('theme') === 'dark') {
-    document.body.classList.add('dark-mode');
-    document.body.classList.remove('light-mode');
-    themeToggle.textContent = '☀️';
-} else {
-    document.body.classList.add('light-mode');
+// ==================== أحداث إضافية للشباتر والاختبارات ====================
+function attachDynamicEvents() {
+    // الأحداث للشباتر
+    document.querySelectorAll('.chapter-item[data-chapter]').forEach(el => {
+        el.removeEventListener('click', handleChapterClick);
+        el.addEventListener('click', handleChapterClick);
+    });
+    
+    // الأحداث للاختبارات
+    document.querySelectorAll('.chapter-item[data-quiz]').forEach(el => {
+        el.removeEventListener('click', handleQuizClick);
+        el.addEventListener('click', handleQuizClick);
+    });
 }
 
-themeToggle.addEventListener('click', () => {
-    if (document.body.classList.contains('light-mode')) {
-        document.body.classList.remove('light-mode');
+function handleChapterClick(e) {
+    const el = e.currentTarget;
+    const chapterIndex = el.getAttribute('data-chapter');
+    const courseId = getCurrentCourseIdFromPage();
+    if (courseId && chapterIndex !== null) {
+        navigateTo('chapter', { courseId, chapterIndex: parseInt(chapterIndex) });
+    }
+}
+
+function handleQuizClick(e) {
+    const el = e.currentTarget;
+    const chapterIndex = el.getAttribute('data-quiz');
+    const courseId = getCurrentCourseIdFromPage();
+    if (courseId && chapterIndex !== null) {
+        navigateTo('quiz', { courseId, chapterIndex: parseInt(chapterIndex) });
+    }
+}
+
+function getCurrentCourseIdFromPage() {
+    const breadcrumb = document.querySelector('.breadcrumb');
+    if (breadcrumb && breadcrumb.textContent) {
+        const course = coursesData.courses.find(c => breadcrumb.textContent.includes(c.name));
+        if (course) return course.id;
+    }
+    return null;
+}
+
+// ==================== مراقبة التغييرات ====================
+function observeDynamicContent() {
+    const observer = new MutationObserver(() => {
+        attachDynamicEvents();
+    });
+    
+    observer.observe(document.getElementById('mainContent'), { childList: true, subtree: true });
+}
+
+// ==================== الوضع الليلي ====================
+const themeToggle = document.getElementById('themeToggle');
+if (themeToggle) {
+    if (localStorage.getItem('theme') === 'dark') {
         document.body.classList.add('dark-mode');
-        localStorage.setItem('theme', 'dark');
+        document.body.classList.remove('light-mode');
         themeToggle.textContent = '☀️';
     } else {
-        document.body.classList.remove('dark-mode');
         document.body.classList.add('light-mode');
-        localStorage.setItem('theme', 'light');
         themeToggle.textContent = '🌙';
     }
-});
-
-// ربط navigateTo بالـ window
-window.navigateTo = navigateTo;
+    
+    themeToggle.addEventListener('click', () => {
+        if (document.body.classList.contains('light-mode')) {
+            document.body.classList.remove('light-mode');
+            document.body.classList.add('dark-mode');
+            localStorage.setItem('theme', 'dark');
+            themeToggle.textContent = '☀️';
+        } else {
+            document.body.classList.remove('dark-mode');
+            document.body.classList.add('light-mode');
+            localStorage.setItem('theme', 'light');
+            themeToggle.textContent = '🌙';
+        }
+    });
+}
 
 // ==================== بدء التشغيل ====================
 loadData();
-if (window.location.hash) {
-    window.dispatchEvent(new Event('hashchange'));
-} else {
-    navigateTo('home');
-}
-saveData();
+
+window.addEventListener('hashchange', renderPage);
+window.addEventListener('load', () => {
+    renderPage();
+    observeDynamicContent();
+});
+
+// حفظ البيانات بشكل دوري
+setInterval(s
