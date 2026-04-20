@@ -1,4 +1,3 @@
-
 // ==================== البيانات ====================
 let coursesData = {
     courses: [
@@ -23,7 +22,6 @@ let coursesData = {
                     name: "Asepsis",
                     pdfUrl: "https://www.mediafire.com/file/3ngj0dww90i5i7f/Asepsis.pdf/file",
                     contentPages: [
-                        // صفحة 1: مفهوم Asepsis والكائنات الحية الدقيقة
                         `📖 **الصفحة 1: مفهوم اللا إنتانية (Asepsis) والكائنات الحية الدقيقة**
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -88,8 +86,6 @@ Microorganisms are everywhere: in the air, soil, and water, and on and within vi
 
 📌 **الخلاصة العلمية:**
 فهم طبيعة هذه الميكروبات وانتشارها الواسع هو الخطوة الأولى لتحقيق هدف التمريض الأساسي وهو "اللا إنتانية" أو منع العدوى.`,
-
-                        // صفحة 2: أنواع الكائنات الحية الدقيقة
                         `📖 **الصفحة 2: أنواع الكائنات الحية الدقيقة**
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -164,8 +160,6 @@ Pathogens have high potential for causing infectious communicable diseases also 
 
 📌 **معلومة إضافية:**
 بعض الكائنات الدقيقة أقل خطورة من غيرها. على سبيل المثال، تساعد البكتيريا المعوية في إنتاج فيتامين K، والذي بدوره يساعد في السيطرة على النزيف.`,
-
-                        // صفحة 3: بقاء الميكروبات (Spores)
                         `📖 **الصفحة 3: بقاء الميكروبات على قيد الحياة (Survival)**
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -204,8 +198,6 @@ A spore is a temporarily inactive microbial life form that can resist heat and d
 • الأبواغ تجعل بعض البكتيريا مقاومة للتعقيم العادي
 • تتطلب القضاء عليها تعقيمًا جراحياً (Sterilization) وليس تطهيراً عادياً
 • مثال: بكتيريا Clostridium difficile (C. diff) تنتج أبواغاً مقاومة`,
-
-                        // صفحة 4: سلسلة العدوى - المكونات الستة
                         `📖 **الصفحة 4: سلسلة العدوى (Chain of Infection) - المكونات الستة**
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -292,8 +284,6 @@ By interfering with the conditions that perpetuate the transmission of microorga
 
 📌 **المبدأ الوقائي:**
 منع انتشار العدوى يعتمد على **"كسر"** حلقة واحدة على الأقل من حلقات سلسلة العدوى الست.`,
-
-                        // صفحة 5: طرق انتقال العدوى بالتفصيل
                         `📖 **الصفحة 5: طرق انتقال العدوى (Methods of Transmission)**
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -366,8 +356,6 @@ By interfering with the conditions that perpetuate the transmission of microorga
 • Airborne → استنشاق الأبواغ
 • Vehicle → طعام أو ماء ملوث
 • Vector → لدغة بعوضة`,
-
-                        // صفحة 6: العائل القابل للإصابة
                         `📖 **الصفحة 6: العائل القابل للإصابة (Susceptible Host)**
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -410,8 +398,6 @@ Nurses must understand and practice methods to prevent nosocomial infections (in
 • تسمى أيضاً Hospital-acquired infection
 • غالباً ما تنتج عن خلل في إجراءات التعقيم أو نظافة الطاقم الطبي
 • من أخطر أنواع العدوى لأن الميكروبات في المستشفى تكون غالباً مقاومة للمضادات الحيوية`,
-
-                        // صفحة 7: أنواع Asepsis وقواعدها
                         `📖 **الصفحة 7: أنواع اللا إنتانية (Asepsis) وقواعدها**
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -466,8 +452,6 @@ Nurses must understand and practice methods to prevent nosocomial infections (in
 ✅ Wearing hospital garments (ارتداء الملابس المستشفوية)
 ✅ Confining and containing soiled materials appropriately (حصر المواد المتسخة بشكل مناسب)
 ✅ Keeping the environment as clean as possible (الحفاظ على البيئة نظيفة قدر الإمكان)`,
-
-                        // صفحة 8: العوامل المضادة للميكروبات
                         `📖 **الصفحة 8: العوامل المضادة للميكروبات (Antimicrobial Agents)**
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -519,7 +503,7 @@ Nurses must understand and practice methods to prevent nosocomial infections (in
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🔹 **الفرق بين Antiseptics و Disinfectants (بدون جدول):**
+🔹 **الفرق بين Antiseptics و Disinfectants:**
 
 📌 **Antiseptics (المطهرات)**
    • تستخدم على الجلد
@@ -553,8 +537,6 @@ Nurses must understand and practice methods to prevent nosocomial infections (in
    • لا تدمر الفيروسات المسببة للعدوى
    • Control viral replication or their release from infected cells
    • تتحكم في تكاثر الفيروسات أو إطلاقها من الخلايا المصابة`,
-
-                        // صفحة 9: غسل اليدين والفرك الجراحي
                         `📖 **الصفحة 9: غسل اليدين (Hand Washing) والفرك الجراحي**
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -608,8 +590,6 @@ A surgical scrub, a type of skin and nail antisepsis, is performed before donnin
 ✅ يستغرق من 2 إلى 6 دقائق
 ✅ يجب خلع جميع المجوهرات والساعات
 ✅ يجب إبقاء اليدين مرفوعتين (فوق مستوى الكوع) بعد الغسل`,
-
-                        // صفحة 10: الفرق بين غسل اليدين والتعقيم الجراحي
                         `📖 **الصفحة 10: الفرق بين غسل اليدين والتعقيم الجراحي**
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -668,8 +648,6 @@ A surgical scrub, a type of skin and nail antisepsis, is performed before donnin
 
 📌 **ملاحظة:**
 القفازات مصنوعة من اللاتكس، الذي قد يسبب حساسية لبعض الناس`,
-
-                        // صفحة 11: حصر المواد المتسخة ونظافة البيئة
                         `📖 **الصفحة 11: حصر المواد المتسخة ونظافة البيئة**
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -718,8 +696,6 @@ A surgical scrub, a type of skin and nail antisepsis, is performed before donnin
 🔹 8. Social worker (أخصائي اجتماعي)
 🔹 9. Teacher (معلم)
 🔹 10. Engineer (مهندس)`,
-
-                        // صفحة 12: الملخص النهائي للشابتر
                         `📖 **الصفحة 12: الملخص النهائي لشابتر Asepsis**
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -780,7 +756,6 @@ A surgical scrub, a type of skin and nail antisepsis, is performed before donnin
                     ],
                     summary: "ملخص كامل لشابتر Asepsis (اللا إنتانية) مقسم إلى 12 صفحة"
                 },
-                // باقي الشباتر كما هي مع تحديث بسيط
                 { 
                     name: "Infection Control", 
                     pdfUrl: "https://www.mediafire.com/file/14d312yhv4x1x7d/Infection_Control.pdf/file",
@@ -833,22 +808,116 @@ A surgical scrub, a type of skin and nail antisepsis, is performed before donnin
                 { title: "محاضرة 8 - Body Mechanics, Positioning", url: "https://youtu.be/nnwa61B0PVA" }
             ]
         },
-        
-        // باقي المساقات (amali, tashreeh, ahyaa) كما هي دون تغيير
-        // ... (سيتم إضافتها في الرد النهائي)
+        {
+            id: "amali",
+            name: "اساسيات التمريض - عملي",
+            description: "المهارات السريرية والإجراءات العملية",
+            icon: "💉",
+            bookUrl: "",
+            bookChapters: [],
+            chapters: [
+                { 
+                    name: "المهارات التمريضية الأساسية", 
+                    pdfUrl: "", 
+                    summary: `📝 **تلخيص شابتر 1 - المهارات التمريضية الأساسية:**\n\n• **المهارات الأساسية التي يجب على الممرض إتقانها:**\n\n**1. قياس العلامات الحيوية:**\n  - درجة الحرارة (فموي، إبطي، شرجي، طبلي)\n  - النبض (السرعة، الانتظام، القوة)\n  - التنفس (السرعة، العمق، النمط)\n  - ضغط الدم (الانقباضي والانبساطي)\n\n**2. العناية بالجروح:**\n  - تنظيف الجرح من الداخل إلى الخارج\n  - تغيير الضمادات بانتظام\n  - مراقبة علامات الالتهاب\n\n**3. إعطاء الأدوية:**\n  - الحقن العضلي، الوريدي، تحت الجلد\n  - التأكد من الدواء والجرعة المناسبة\n  - الالتزام بالقواعد الخمس الصحيحة`
+                },
+                { 
+                    name: "المهارات المتقدمة", 
+                    pdfUrl: "", 
+                    summary: `📝 **تلخيص شابتر 2 - المهارات التمريضية المتقدمة:**\n\n• **الإنعاش القلبي الرئوي (CPR):**\n  - الضغطات على الصدر (30 ضغطة)\n  - التنفس الاصطناعي (نفختين)\n  - النسبة 30:2\n\n• **القسطرة البولية:**\n  - تعقيم المنطقة\n  - استخدام تقنية معقمة\n  - مراقبة كمية البول ولونه\n\n• **التنفس الصناعي:**\n  - جهاز التنفس الصناعي\n  - شفط الإفرازات\n  - مراقبة تشبع الأكسجين`
+                },
+                { 
+                    name: "الرعاية التمريضية المتخصصة", 
+                    pdfUrl: "", 
+                    summary: `📝 **تلخيص شابتر 3 - الرعاية التمريضية المتخصصة:**\n\n• **رعاية مرضى الحروق:**\n  - تقييم مساحة الحرق وعمقه\n  - تنظيف وتعقيم الحرق\n  - تغطية الحرق بضمادات معقمة\n  - مراقبة علامات الصدمة\n\n• **رعاية مرضى السكري:**\n  - قياس نسبة السكر في الدم\n  - إعطاء الأنسولين\n  - مراقبة أعراض نقص أو ارتفاع السكر\n  - التثقيف الصحي للمريض\n\n• **رعاية مرضى الضغط المرتفع:**\n  - مراقبة ضغط الدم بانتظام\n  - التوعية بأهمية الأدوية والغذاء الصحي`
+                }
+            ],
+            lectures: []
+        },
+        {
+            id: "tashreeh",
+            name: "التشريح",
+            description: "دراسة تركيب الجسم البشري",
+            icon: "🧠",
+            bookUrl: "",
+            bookChapters: [],
+            chapters: [
+                { 
+                    name: "الجهاز الهيكلي", 
+                    pdfUrl: "", 
+                    summary: `📝 **تلخيص شابتر 1 - الجهاز الهيكلي (Skeletal System):**\n\n• **وظائف الجهاز الهيكلي:**\n  - دعم الجسم وإعطائه الشكل\n  - حماية الأعضاء الداخلية\n  - تخزين الكالسيوم والفوسفور\n  - إنتاج خلايا الدم (النخاع العظمي)\n\n• **أقسام الهيكل العظمي:**\n  - الهيكل المحوري (الجمجمة، العمود الفقري، القفص الصدري)\n  - الهيكل الطرفي (الأطراف العلوية والسفلية، الحوض)\n\n• **أنواع العظام:**\n  - عظام طويلة (الفخذ، الساق)\n  - عظام قصيرة (الرسغ، الكاحل)\n  - عظام مسطحة (الجمجمة، عظم الكتف)\n  - عظام غير منتظمة (الفقرات)\n\n• **عدد عظام الإنسان البالغ:** 206 عظمة`
+                },
+                { 
+                    name: "الجهاز العضلي", 
+                    pdfUrl: "", 
+                    summary: `📝 **تلخيص شابتر 2 - الجهاز العضلي (Muscular System):**\n\n• **أنواع العضلات:**\n  - العضلات الهيكلية (إرادية)\n  - العضلات الملساء (لا إرادية - توجد في الأمعاء والأوعية الدموية)\n  - العضلة القلبية (لا إرادية - توجد في القلب فقط)\n\n• **وظائف العضلات:**\n  - الحركة\n  - الحفاظ على الوضعية\n  - إنتاج الحرارة\n  - تثبيت المفاصل\n\n• **أهم عضلات الجسم:**\n  - العضلة القلبية\n  - الحجاب الحاجز (التنفس)\n  - العضلة ذات الرأسين والعضلة ثلاثية الرؤوس`
+                },
+                { 
+                    name: "الجهاز العصبي", 
+                    pdfUrl: "", 
+                    summary: `📝 **تلخيص شابتر 3 - الجهاز العصبي (Nervous System):**\n\n• **أقسام الجهاز العصبي:**\n  - الجهاز العصبي المركزي (الدماغ + الحبل الشوكي)\n  - الجهاز العصبي الطرفي (الأعصاب المتفرعة)\n\n• **أجزاء الدماغ:**\n  - المخ (الوعي، الذاكرة، الحركة الإرادية)\n  - المخيخ (التوازن والتناسق الحركي)\n  - جذع الدماغ (الوظائف الحيوية: التنفس، النبض)\n\n• **الخلية العصبية (العصبون):**\n  - جسم الخلية\n  - محور عصبي\n  - زوائد شجرية\n\n• **الجهاز العصبي الذاتي:**\n  - الجهاز السمبثاوي (الاستجابة للطوارئ)\n  - الجهاز نظير السمبثاوي (الاسترخاء والهضم)`
+                },
+                { name: "الجهاز الدوري", pdfUrl: "", description: "دراسة القلب والأوعية الدموية" },
+                { name: "الجهاز التنفسي", pdfUrl: "", description: "دراسة الرئتين والمجاري التنفسية" },
+                { name: "الجهاز الهضمي", pdfUrl: "", description: "دراسة الجهاز الهضمي ووظائفه" },
+                { name: "الجهاز البولي", pdfUrl: "", description: "دراسة الكلى والمسالك البولية" }
+            ],
+            lectures: [
+                { title: "محاضرة رقم 1 - محاضرة التشريح ووظائف اعضاء 1 2025 2026 المحاضرة الاولى", url: "https://youtu.be/zLoMS9bqnZY" },
+                { title: "محاضرة رقم 2 - محاضرة التشريح الثانية 11 04 2026", url: "https://youtu.be/t7GbRUIYOxk" },
+                { title: "محاضرة رقم 3 - محاضرة التشريح الثالثة 11 04 2026", url: "https://youtu.be/tMa5FO7hRgA" },
+                { title: "محاضرة رقم 4 - INTEGUMENTARY SYSTEM 4 المحاضرة الرابعة", url: "https://youtu.be/KCSViIGdhqY" },
+                { title: "محاضرة رقم 5 - Skeletal system 1 المحاضرة الخامسة", url: "https://youtu.be/T8KcYEFgilU" }
+            ]
+        },
+        {
+            id: "ahyaa",
+            name: "الاحياء",
+            description: "الأساسيات البيولوجية للجسم",
+            icon: "🔬",
+            bookUrl: "https://drive.google.com/drive/folders/1ZuP4XNRreseUwH3GMTiTZNP8IdI2miuJ",
+            bookChapters: [],
+            chapters: [
+                { 
+                    name: "مقدمة في علم الأحياء", 
+                    pdfUrl: "", 
+                    summary: `📝 **تلخيص شابتر 1 - مقدمة في علم الأحياء (Introduction to Biology):**\n\n• **تعريف علم الأحياء:** هو العلم الذي يدرس الكائنات الحية من حيث تركيبها، وظائفها، نموها، وتكاثرها.\n\n• **خصائص الكائنات الحية:**\n  - التنظيم الخلوي\n  - النمو والتطور\n  - التكاثر\n  - الاستجابة للمؤثرات\n  - التمثيل الغذائي\n  - التوازن الداخلي\n\n• **فروع علم الأحياء:**\n  - علم الخلايا\n  - علم الوراثة\n  - علم الأحياء الدقيقة\n  - علم البيئة\n  - علم التشريح`
+                },
+                { 
+                    name: "الخلية", 
+                    pdfUrl: "", 
+                    summary: `📝 **تلخيص شابتر 2 - الخلية (The Cell):**\n\n• **الخلية هي وحدة الحياة الأساسية.**\n\n• **مكونات الخلية الحيوانية:**\n  - النواة (تحوي المادة الوراثية)\n  - الغشاء الخلوي (ينظم مرور المواد)\n  - السيتوبلازم (الوسط الهلامي)\n  - الميتوكوندريا (مركز الطاقة)\n  - الشبكة الإندوبلازمية (تصنيع البروتينات)\n  - جهاز جولجي (تعبئة المواد)\n\n• **أنواع الخلايا:**\n  - خلية بدائية النواة (لا تحتوي نواة)\n  - خلية حقيقية النواة (تحتوي نواة)\n\n• **الفرق بين الخلية النباتية والحيوانية:**\n  - النباتية: جدار خلوي، بلاستيدات خضراء، فجوة عصارية كبيرة\n  - الحيوانية: لا تحتوي جدار خلوي أو بلاستيدات`
+                },
+                { 
+                    name: "الوراثة", 
+                    pdfUrl: "", 
+                    summary: `📝 **تلخيص شابتر 3 - الوراثة (Genetics):**\n\n• **تعريف الوراثة:** انتقال الصفات من الآباء إلى الأبناء.\n\n• **الحمض النووي (DNA):**\n  - المادة الوراثية التي تحمل الشفرة الوراثية\n  - يتكون من سلسلتين ملتفتين حول بعضهما (اللولب المزدوج)\n  - الوحدة الأساسية هي النيوكليوتيدات\n\n• **الجينات:** هي قطع من DNA تحدد صفة معينة.\n\n• **الكروموسومات:**\n  - الإنسان لديه 46 كروموسوم (23 زوج)\n  - 22 زوج من الكروموسومات الجسدية\n  - زوج واحد من الكروموسومات الجنسية (XX أنثى، XY ذكر)\n\n• **قواعد مندل:**\n  - قانون السيادة\n  - قانون الانعزال\n  - قانون التوزيع المستقل`
+                },
+                { name: "التمثيل الغذائي", pdfUrl: "", description: "عمليات الأيض في الجسم" },
+                { name: "الأحياء الدقيقة", pdfUrl: "", description: "دراسة الكائنات الحية الدقيقة" },
+                { name: "جهاز المناعة", pdfUrl: "", description: "آليات الدفاع في الجسم" },
+                { name: "الجهاز الهرموني", pdfUrl: "", description: "الغدد الصماء والهرمونات" },
+                { name: "التكاثر", pdfUrl: "", description: "عمليات التكاثر في الكائنات الحية" },
+                { name: "النمو والتطور", pdfUrl: "", description: "مراحل النمو والتطور" },
+                { name: "علم البيئة", pdfUrl: "", description: "العلاقات بين الكائنات وبيئتها" }
+            ],
+            lectures: [
+                { title: "محاضرة 1 - Chapter 1 Introduction to Microbiology", url: "https://www.youtube.com/watch?v=JUwqdnDMnv4&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-" },
+                { title: "محاضرة 2 الجزء الأول - Chapter 2 Bacterial cell structure (part 1)", url: "https://www.youtube.com/watch?v=mOLOMgInvTU&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-" },
+                { title: "محاضرة 2 الجزء الثاني - Chapter 2 Bacterial cell structure (part 2)", url: "https://www.youtube.com/watch?v=NP5P6m7pT6M&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=3" },
+                { title: "محاضرة 3 - Chapter 3: Bacterial growth and multiplication", url: "https://www.youtube.com/watch?v=NbUqxwae4R8&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=4" },
+                { title: "محاضرة 4 - Chapter 4: Bacterial Identification and Diagnosis", url: "https://www.youtube.com/watch?v=XUBKO_IKyVo&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=5" },
+                { title: "محاضرة 5 الجزء الأول - Chapter 5 (Part 1): Sterilization and disinfection", url: "https://www.youtube.com/watch?v=DV-8CJ1z9xg&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=6" },
+                { title: "محاضرة 5 الجزء الثاني - Chapter 5 (Part 2): Sterilization and disinfection", url: "https://www.youtube.com/watch?v=BNAM6oAk_6o&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=7" },
+                { title: "محاضرة 6 جزء أول - Chapter 6: Classification of bacteria (Part 1)", url: "https://www.youtube.com/watch?v=McWHmMMF8cc&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=8" },
+                { title: "محاضرة 6 الجزء الثاني - Chapter 6: Classification of bacteria (Part 2)", url: "https://www.youtube.com/watch?v=KxZuGg26Z4Q&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=9" },
+                { title: "محاضرة 6 الجزء الثالث - Chapter 6: Classification of bacteria (Part 3)", url: "https://www.youtube.com/watch?v=7gMBsyQLS90&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=10" },
+                { title: "محاضرة 6 الجزء الرابع - Chapter 6: Classification of bacteria (Part 4)", url: "https://www.youtube.com/watch?v=nmJd45pTF9Q&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=11" },
+                { title: "محاضرة 6 الجزء الخامس - Chapter 6: Classification of bacteria (Part 5)", url: "https://www.youtube.com/watch?v=NoyDyLmDvjQ&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=12" }
+            ]
+        }
     ]
 };
-
-// ==================== باقي الكود (دوال العرض والتنقل) ====================
-// جميع الدوال السابقة كما هي: saveData, loadData, navigateTo, renderPage, renderHome, 
-// renderCourse, renderChaptersList, renderQuizzesList, renderChapter, renderLectures, 
-// renderBook, renderQuiz, attachDynamicEvents, handleChapterClick, handleQuizClick, 
-// getCurrentCourseIdFromPage, observeDynamicContent, themeToggle
-// ==================== باقي الكود (دوال العرض والتنقل) ====================
-// ... (جميع الدوال السابقة كما هي: saveData, loadData, navigateTo, renderPage, renderHome, renderCourse, renderChaptersList, renderQuizzesList, renderChapter, renderLectures, renderBook, renderQuiz, attachDynamicEvents, handleChapterClick, handleQuizClick, getCurrentCourseIdFromPage, observeDynamicContent, themeToggle, وغيرها)
-
-// لضيق المساحة، تم تضمين جميع الدوال السابقة في الكود الكامل
-
 
 // بيانات الأسئلة
 let quizData = {
@@ -1071,7 +1140,7 @@ function renderQuizzesList(course) {
     `;
 }
 
-// ==================== عرض صفحة الملخص مع تقسيم الصفحات ====================
+// ==================== عرض صفحة الملخص ====================
 function renderChapter(container, courseId, chapterIndex, pageNum = 0) {
     const course = coursesData.courses.find(c => c.id === courseId);
     if (!course || !course.chapters[chapterIndex]) {
@@ -1084,7 +1153,6 @@ function renderChapter(container, courseId, chapterIndex, pageNum = 0) {
     const currentPage = Math.min(pageNum, totalPages - 1);
     const content = chapter.contentPages ? chapter.contentPages[currentPage] : (chapter.summary || chapter.description || "📝 الملخص قيد التجهيز...");
     
-    // إنشاء أزرار التنقل بين الصفحات
     let pageButtons = '';
     if (totalPages > 1) {
         pageButtons = `
@@ -1116,7 +1184,7 @@ function renderChapter(container, courseId, chapterIndex, pageNum = 0) {
         ${pageButtons}
         
         <div class="chapter-content">
-            <div class="chapter-description" style="white-space: pre-line; line-height: 1.8; font-size: 0.9rem; direction: ltr; text-align: left;">
+            <div class="chapter-description" style="white-space: pre-line; line-height: 1.8; font-size: 0.9rem;">
                 ${content.replace(/\n/g, '<br>')}
             </div>
             ${chapter.pdfUrl ? `<a href="${chapter.pdfUrl}" target="_blank" class="book-link" style="display: block; text-align: center; margin-top: 20px;">📥 تحميل ملف PDF للشابتر</a>` : ''}
@@ -1131,7 +1199,6 @@ function renderChapter(container, courseId, chapterIndex, pageNum = 0) {
         ` : ''}
     `;
     
-    // إضافة أحداث التنقل
     document.getElementById('backBtn').addEventListener('click', () => window.history.back());
     document.getElementById('backToCourse').addEventListener('click', () => navigateTo('course', { courseId }));
     document.getElementById('takeQuizBtn').addEventListener('click', () => navigateTo('quiz', { courseId, chapterIndex }));
@@ -1152,7 +1219,6 @@ function renderChapter(container, courseId, chapterIndex, pageNum = 0) {
             });
         }
         
-        // أزرار الصفحات
         document.querySelectorAll('.page-nav-btn').forEach(btn => {
             btn.addEventListener('click', () => {
                 const page = parseInt(btn.dataset.page);
