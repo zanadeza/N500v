@@ -539,4 +539,4 @@ window.addEventListener('load', () => {
 });
 
 // حفظ البيانات بشكل دوري
-setInterval(s
+setInterval(saveData, 5000);
