@@ -19,19 +19,304 @@ let coursesData = {
             ],
             chapters: [
                 { 
-                    name: "Asepsis", 
-                    pdfUrl: "https://www.mediafire.com/file/3ngj0dww90i5i7f/Asepsis.pdf/file", 
-                    summary: `📝 **تلخيص شابتر 1 - Asepsis (العقامة):**\n\n• **تعريف العقامة:** هي مجموعة الإجراءات التي تهدف إلى منع انتقال العدوى والقضاء على الكائنات الحية الدقيقة الممرضة.\n\n• **أنواع العقامة:**\n  - العقامة الطبية: تقليل عدد الجراثيم\n  - العقامة الجراحية: القضاء التام على جميع الجراثيم\n\n• **طرق مكافحة العدوى:**\n  1. غسل اليدين (أهم طريقة)\n  2. استخدام القفازات والكمامات\n  3. التعقيم والتطهير\n  4. العزل الصحي\n\n• **سلسلة العدوى:**\n  - مصدر العدوى → طريق الانتقال → الشخص القابل للإصابة`
+                    name: "Asepsis",
+                    pdfUrl: "https://www.mediafire.com/file/3ngj0dww90i5i7f/Asepsis.pdf/file",
+                    contentPages: [
+                        `📖 **الصفحة 1: مقدمة عن Asepsis والكائنات الحية الدقيقة**
+                        
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **Asepsis (العقامة)** - طريقة النطق: أسيبسيس
+
+Preventing infections is one of the most important priorities in nursing.
+
+يُعد منع العدوى أحد أهم الأولويات في مهنة التمريض.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **Microorganisms (الكائنات الحية الدقيقة)** - طريقة النطق: مايكروأورجانيزمز
+
+Microorganisms, living animals or plants visible only with a microscope, are commonly called germs.
+
+الكائنات الحية الدقيقة، وهي حيوانات أو نباتات حية لا تُرى إلا بالمجهر، تُسمى عادةً بالجراثيم.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **ما تفتقر إليه هذه الكائنات في الحجم تعوضه بالعدد**
+
+What they lack in size, they make up for in numbers.
+
+وما تفتقر إليه هذه الكائنات في الحجم، تعوضه في أعدادها الكبيرة.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **أماكن تواجد الكائنات الحية الدقيقة**
+
+Microorganisms are everywhere: in the air, soil, and water, and on and within virtually everything and everyone.
+
+تتواجد الكائنات الحية الدقيقة في كل مكان: في الهواء والتربة والماء، وعلى (وفي داخل) كل شيء وكل شخص تقريباً.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 **الشرح:**
+أوضح أن كلمة "Asepsis" هي مصطلح طبي يتكون من مقطعين: "A" وتعني "بدون" (نافية)، و "sepsis" وتعني "عدوى" (Infection)، ليصبح المعنى الإجمالي هو منع العدوى، وهو من الأولويات القصوى في التمريض.
+عرف الكائنات الحية الدقيقة (Microorganisms) بأنها كائنات حية صغيرة (حيوانات أو نباتات) لا تُرى بالعين المجردة، بل فقط عبر الميكروسكوب، وغالباً ما تسمى "جراثيم".
+أشار إلى أن هذه الكائنات موجودة في كل مكان: في الهواء، الرمل، الماء، وعلى كل شيء تقريباً.`,
+
+                        `📖 **الصفحة 2: أنواع الكائنات الحية الدقيقة**
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **Types of Microorganisms (أنواع الكائنات الحية الدقيقة)**
+
+Microorganisms are divided into two main groups: nonpathogens or normal flora and pathogens.
+
+تنقسم الكائنات الحية الدقيقة إلى مجموعتين رئيسيتين: غير الممرضة (أو الفلورا الطبيعية) والممرضة.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **Non Pathogens (غير الممرضة)** - طريقة النطق: نون باثوجنز
+
+Non Pathogens: Mutually beneficial, or neither harming nor helping the host.
+
+غير الممرضة: مفيدة بشكل متبادل، أو لا تضر ولا تنفع العائل (المضيف).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **Pathogens (الممرضة)** - طريقة النطق: باثوجنز
+
+Pathogens have high potential for causing infectious communicable diseases also called contagious diseases and community-acquired infections.
+
+الممرضة: لديها إمكانية عالية للتسبب في أمراض معدية منقولة، وتسمى أيضاً بالأمراض السارية (المعدية) والعدوى المكتسبة من المجتمع.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **أمثلة على المسببات المرضية:**
+
+• **Bacteria (البكتيريا)** - طريقة النطق: باكتيريا
+  Single-celled microorganisms.
+  كائنات حية دقيقة وحيدة الخلية.
+
+• **Viruses (الفيروسات)** - طريقة النطق: فايروسيز
+  The smallest microorganisms.
+  أصغر الكائنات الحية الدقيقة.
+
+• **Fungi (الفطريات)** - طريقة النطق: فانجاي
+  Include yeasts and molds.
+  تشمل الخمائر والعفن.
+
+• **Rickettsiae (الريكتسيا)** - طريقة النطق: ريكيتسي
+  Resemble bacteria; like viruses presented in fleas and lice.
+  تشبه البكتيريا؛ وتوجد مثل الفيروسات في البراغيث والقمل.
+
+• **Protozoans (البروتوزوا/الأوليات)** - طريقة النطق: بروتوزونز
+  Single-celled animals like amebia.
+  حيوانات وحيدة الخلية مثل الأميبا.
+
+• **Mycoplasmas (الميكوبلازما)** - طريقة النطق: مايكوبلازما
+  Lack a cell wall. They are referred to as pleomorphic.
+  تفتقر إلى جدار خلوي، ويشار إليها بأنها "متعددة الأشكال".
+
+• **Helminths (الديدان الطفيلية)** - طريقة النطق: هيلمينثس
+  Are infectious worms.
+  هي ديدان معدية.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 **الشرح:**
+تنقسم الكائنات الدقيقة إلى مجموعتين أساسيتين:
+1. غير مسببة للمرض (Non-pathogens): وتسمى أيضاً "نورمال فلورا" (Normal flora). هي كائنات مفيدة أو متعايشة (تبادل منفعة) ولا تسبب ضرراً للعائل.
+2. مسببة للمرض (Pathogens): وهي مصدر للعدوى وتسبب أمراضاً معدية أو سارية.`,
+
+                        `📖 **الصفحة 3: بقاء الميكروبات وسلسلة العدوى**
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **Survival of Microorganisms (بقاء الكائنات الحية الدقيقة)**
+
+Many pathogens have mutated to adapt to hostile environments and unfavorable living conditions. Such adaptability has ensured that they continue to pose a threat to humans.
+
+لقد تحورت العديد من مسببات الأمراض للتكيف مع البيئات المعادية وظروف المعيشة غير المواتية. وقد ضمنت هذه القدرة على التكيف استمرارها في تشكيل تهديد للبشر.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **Spore (البوغة)** - طريقة النطق: سبور
+
+A spore is a temporarily inactive microbial life form that can resist heat and destructive chemicals and survive without moisture.
+
+البوغة (A spore): هي شكل من أشكال الحياة الميكروبية غير النشطة مؤقتاً، والتي يمكنها مقاومة الحرارة والمواد الكيميائية المدمرة والبقاء على قيد الحياة دون رطوبة.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **Chain of Infection (سلسلة العدوى)**
+
+By interfering with the conditions that perpetuate the transmission of microorganisms, humans can avoid acquiring infectious diseases.
+
+من خلال التدخل في الظروف التي تسمح باستمرار انتقال الكائنات الحية الدقيقة، يمكن للبشر تجنب الإصابة بالأمراض المعدية.
+
+The six essential components of the chain of infection must be in place if pathogens are to be transmitted.
+
+يجب أن تكتمل المكونات الستة الأساسية لسلسلة العدوى لكي تنتقل مسببات الأمراض.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **المكونات الستة لسلسلة العدوى:**
+
+1️⃣ **Infectious Agent (العامل المعدي)** - الميكروب المسبب للمرض
+2️⃣ **Reservoir (المستودع)** - مكان نمو وتكاثر الميكروب
+3️⃣ **Exit Route (طريق الخروج)** - كيف يخرج الميكروب من المستودع
+4️⃣ **Mode of Transmission (طريقة الانتقال)** - كيف ينتقل الميكروب
+5️⃣ **Port of Entry (منفذ الدخول)** - مكان دخول الميكروب للعائل الجديد
+6️⃣ **Susceptible Host (العائل القابل للإصابة)** - الشخص ضعيف المناعة
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 **الشرح:**
+أكد المحاضر أن منع انتشار العدوى يعتمد على "كسر" حلقة من حلقات سلسلة العدوى الست.
+تحدث عن الأبواغ أو الحويصلات (Spores)، وهي بكتيريا في طور غير نشط تقاوم الحرارة والمواد الكيميائية والجفاف حتى تجد الظروف المناسبة لتنشط مرة أخرى.`,
+
+                        `📖 **الصفحة 4: طرق انتقال العدوى والعائل القابل للإصابة**
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **Methods of Transmission (طرق الانتقال)**
+
+📌 **Contact Transmission (الانتقال بالتلامس/التماس)**
+  • Direct contact (التلامس المباشر): Actual physical transfer from one infected person to another
+  • Indirect contact (التلامس غير المباشر): Contact between a susceptible person and a contaminated object
+
+📌 **Droplet Transmission (الانتقال بالقطيرات/الرذاذ)**
+  • Transfer of moist particles from an infected person who is within a radius of 3 ft
+  • Example: Inhalation of droplets released during sneezing, coughing, or talking
+
+📌 **Airborne Transmission (الانتقال المحمول جواً)**
+  • Movement of microorganisms attached to evaporated water droplets or dust particles
+  • Example: Inhalation of spores
+
+📌 **Vehicle Transmission (الانتقال بواسطة ناقل غير حي)**
+  • Transfer of microorganisms present on or in contaminated items such as food, water, medications, devices, and equipment
+  • Example: Consumption of water contaminated with microorganisms
+
+📌 **Vector Transmission (الانتقال بواسطة ناقل حي)**
+  • Transfer of microorganisms from an infected animal carrier
+  • Example: Diseases spread by mosquitoes, fleas, ticks, or rats
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **Susceptible Host (العائل القابل للإصابة)**
+
+Humans become susceptible to infections when their defense mechanisms are diminished or impaired.
+
+يصبح البشر عرضة للإصابة بالعدوى عندما تضعف أو تتعطل آليات دفاعهم.
+
+**الأشخاص الأكثر عرضة للعدوى:**
+• Older adults or premature infants (كبار السن والأطفال الخدج)
+• Burn victims (مرضى الحروق)
+• Major trauma (رضوض كبيرة/صدمات شديدة)
+• Invasive procedures such as endoscopy (إجراءات تدخلية مثل التنظير)
+• Indwelling equipment such as a urinary catheter (معدات مقيمة مثل القسطرة البولية)
+• Antibiotics inappropriately (مضادات حيوية بطريقة غير مناسبة)
+• Anticancer drugs and corticosteroids (أدوية مضادة للسرطان وكورتيكوستيرويدات)
+• Infected with HIV (مصابون بفيروس نقص المناعة البشرية)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 **Nosocomial Infection (العدوى المكتسبة من المستشفيات)**
+Infections acquired while a person is receiving care in a health care agency.
+العدوى التي تُكتسب أثناء تلقّي الشخص للرعاية في إحدى مؤسسات الرعاية الصحية.`,
+
+                        `📖 **الصفحة 5: أنواع Asepsis وقواعدها وممارساتها**
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **Definition of Asepsis (تعريف العقامة)**
+
+Asepsis means those practices that decrease or eliminate infectious agents, their reservoirs, and vehicles for transmission. It is the major method for controlling infection.
+
+العقامة تعني الممارسات التي تقلل أو تقضي على العوامل المعدية ومستودعاتها ووسائل نقلها. وهي الطريقة الرئيسية لمكافحة العدوى.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **Types of Asepsis (أنواع العقامة)**
+
+1️⃣ **Medical Asepsis (العقامة الطبية)** - Clean technique (التقنية النظيفة)
+   Practices that confine or reduce the numbers of microorganisms.
+   الممارسات التي تحد أو تقلل من أعداد الكائنات الحية الدقيقة.
+
+2️⃣ **Surgical Asepsis (العقامة الجراحية)** - Sterile technique (التقنية المعقمة)
+   Eliminates all microorganisms, including spores.
+   تقضي على جميع الكائنات الحية الدقيقة بما فيها الأبواغ.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **Principles of Medical Asepsis (قواعد العقامة الطبية)**
+
+• Microorganisms exist everywhere except on sterilized equipment.
+• Frequent hand hygiene and maintaining intact skin are the best methods.
+• Blood, body fluids, cells, and tissues are considered major reservoirs.
+• Personal protective equipment (gloves, gowns, masks, goggles) serves as a barrier.
+• A clean environment reduces microorganisms.
+• Cleaning should be done from cleaner to dirtier areas.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **Antimicrobial Agents (العوامل المضادة للميكروبات)**
+
+• **Soap (الصابون)**: Lowers surface tension - used for Hygiene
+• **Alcohol (الكحول 70%)**: Injures protein structures - used for skin, instruments
+• **Iodine (اليود/Betadine)**: Damages cell membrane - used for cleansing skin
+• **Chlorine (الكلور/Bleach)**: Interferes with enzyme systems - used for disinfecting
+• **Chlorhexidine (الكلورهيكسيدين/Hibiclens)**: Damages cell membrane
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 **Hand Washing (غسل اليدين)**
+• Minimum 15 seconds (15 ثانية كحد أدنى)
+• Most effective way to prevent infections (الطريقة الأكثر فعالية لمنع العدوى)
+
+🔹 **Surgical Scrub (الفرك الجراحي)**
+• Lasts 2-6 minutes (يستمر 2-6 دقائق)
+• Hands held higher than elbows (اليدين مرفوعتين فوق المرفقين)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 **الفرق بين Antiseptics و Disinfectants:**
+المطهرات (Antiseptics) تمنع نمو الميكروبات وتستخدم على الجلد.
+المعقمات (Disinfectants) تقتل الميكروبات النشطة وتستخدم للأسطح والجدران.`
+                    ],
+                    summary: "ملخص كامل لشابتر Asepsis مقسم إلى 5 صفحات"
                 },
                 { 
                     name: "Infection Control", 
-                    pdfUrl: "https://www.mediafire.com/file/14d312yhv4x1x7d/Infection_Control.pdf/file", 
-                    summary: `📝 **تلخيص شابتر 2 - Infection Control (مكافحة العدوى):**\n\n• **أنواع العدوى:**\n  - عدوى بكتيرية\n  - عدوى فيروسية\n  - عدوى فطرية\n  - عدوى طفيلية\n\n• **مراحل العدوى:**\n  1. فترة الحضانة\n  2. فترة البادرات\n  3. فترة الذروة\n  4. فترة النقاهة\n\n• **إجراءات مكافحة العدوى:**\n  - غسل اليدين قبل وبعد كل إجراء\n  - التعقيم المناسب للأدوات\n  - التخلص الآمن من النفايات الطبية\n  - الاحتياطات القياسية للعزل`
+                    pdfUrl: "https://www.mediafire.com/file/14d312yhv4x1x7d/Infection_Control.pdf/file",
+                    contentPages: [
+                        `📖 **الصفحة 1: Infection Control - مكافحة العدوى**
+                        
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📝 **محتوى هذا الشابتر قيد التجهيز...**
+
+سيتم إضافة الملخص الكامل لشابتر Infection Control قريباً.
+
+يمكنك حالياً تحميل ملف PDF الخاص بهذا الشابتر من قسم "الكتاب المقرر".`
+                    ],
+                    summary: "ملخص شابتر Infection Control - قيد التجهيز"
                 },
                 { 
                     name: "Safety", 
-                    pdfUrl: "https://www.mediafire.com/file/ofe0j0gqca2knxb/Safety.pdf/file", 
-                    summary: `📝 **تلخيص شابتر 3 - Safety (السلامة):**\n\n• **أهداف السلامة في التمريض:**\n  - حماية المريض من الإصابات\n  - حماية الممرض من المخاطر المهنية\n  - توفير بيئة آمنة\n\n• **مخاطر السلامة الشائعة:**\n  - السقوط (الأكثر شيوعاً بين كبار السن)\n  - الحروق\n  - التسمم الدوائي\n  - الاختناق\n\n• **إجراءات الوقاية:**\n  - رفع جوانب السرير للمرضى المعرضين للسقوط\n  - استخدام فرامل السرير والعربة\n  - وضع جرس الإنذار بجانب المريض\n  - الإضاءة المناسبة ليلاً`
+                    pdfUrl: "https://www.mediafire.com/file/ofe0j0gqca2knxb/Safety.pdf/file",
+                    contentPages: [
+                        `📖 **الصفحة 1: Safety - السلامة**
+                        
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📝 **محتوى هذا الشابتر قيد التجهيز...**
+
+سيتم إضافة الملخص الكامل لشابتر Safety قريباً.
+
+يمكنك حالياً تحميل ملف PDF الخاص بهذا الشابتر من قسم "الكتاب المقرر".`
+                    ],
+                    summary: "ملخص شابتر Safety - قيد التجهيز"
                 },
                 { name: "Admission, Discharge, Transfer", pdfUrl: "https://www.mediafire.com/file/jy3g11m8l3tt9g5/Admission%252C_Discharge%252C_Transfer%252C.pdf/file", description: "إجراءات قبول وتحويل وخروج المريض" },
                 { name: "Recording and Reporting", pdfUrl: "https://www.mediafire.com/file/5om84r45wbfeo70/Recording_and_Reporting.pdf/file", description: "طرق التسجيل والتقرير في التمريض" },
@@ -238,6 +523,7 @@ function navigateTo(page, params = {}) {
     let url = `#${page}`;
     if (params.courseId) url += `/${params.courseId}`;
     if (params.chapterIndex !== undefined && params.chapterIndex !== null) url += `/${params.chapterIndex}`;
+    if (params.pageNum !== undefined) url += `/${params.pageNum}`;
     window.location.hash = url;
 }
 
@@ -254,7 +540,8 @@ function renderPage() {
     } else if (page === 'course' && parts[1]) {
         renderCourse(main, parts[1]);
     } else if (page === 'chapter' && parts[1] && parts[2]) {
-        renderChapter(main, parts[1], parseInt(parts[2]));
+        const pageNum = parts[3] ? parseInt(parts[3]) : 0;
+        renderChapter(main, parts[1], parseInt(parts[2]), pageNum);
     } else if (page === 'lectures' && parts[1]) {
         renderLectures(main, parts[1]);
     } else if (page === 'book' && parts[1]) {
@@ -383,8 +670,8 @@ function renderQuizzesList(course) {
     `;
 }
 
-// ==================== عرض صفحة الملخص (الشابتر) ====================
-function renderChapter(container, courseId, chapterIndex) {
+// ==================== عرض صفحة الملخص مع تقسيم الصفحات ====================
+function renderChapter(container, courseId, chapterIndex, pageNum = 0) {
     const course = coursesData.courses.find(c => c.id === courseId);
     if (!course || !course.chapters[chapterIndex]) {
         navigateTo('home');
@@ -392,6 +679,23 @@ function renderChapter(container, courseId, chapterIndex) {
     }
     
     const chapter = course.chapters[chapterIndex];
+    const totalPages = chapter.contentPages ? chapter.contentPages.length : 1;
+    const currentPage = Math.min(pageNum, totalPages - 1);
+    const content = chapter.contentPages ? chapter.contentPages[currentPage] : (chapter.summary || chapter.description || "📝 الملخص قيد التجهيز...");
+    
+    // إنشاء أزرار التنقل بين الصفحات
+    let pageButtons = '';
+    if (totalPages > 1) {
+        pageButtons = `
+            <div style="display: flex; justify-content: center; gap: 10px; margin: 20px 0; flex-wrap: wrap;">
+                ${Array.from({ length: totalPages }, (_, i) => `
+                    <button class="page-nav-btn" data-page="${i}" style="background: ${i === currentPage ? 'var(--primary-color)' : 'var(--card-bg)'}; color: ${i === currentPage ? 'white' : 'var(--text-primary)'}; border: 1px solid var(--border-color); padding: 6px 12px; border-radius: 20px; cursor: pointer; font-family: 'Tajawal', sans-serif;">
+                        صفحة ${i + 1}
+                    </button>
+                `).join('')}
+            </div>
+        `;
+    }
     
     container.innerHTML = `
         <div class="nav-bar">
@@ -404,22 +708,57 @@ function renderChapter(container, courseId, chapterIndex) {
             <div class="avatar">📖</div>
             <div class="user-greeting">
                 <h3>ملخص شابتر ${chapterIndex+1}: ${chapter.name}</h3>
-                <p>مراجعة سريعة وشاملة للمادة</p>
+                <p>${totalPages > 1 ? `صفحة ${currentPage + 1} من ${totalPages}` : 'مراجعة سريعة وشاملة للمادة'}</p>
             </div>
         </div>
         
+        ${pageButtons}
+        
         <div class="chapter-content">
-            <div class="chapter-description" style="white-space: pre-line; line-height: 1.8; font-size: 0.9rem;">
-                ${chapter.summary || chapter.description || "📝 الملخص قيد التجهيز..."}
+            <div class="chapter-description" style="white-space: pre-line; line-height: 1.8; font-size: 0.9rem; direction: ltr; text-align: left;">
+                ${content.replace(/\n/g, '<br>')}
             </div>
             ${chapter.pdfUrl ? `<a href="${chapter.pdfUrl}" target="_blank" class="book-link" style="display: block; text-align: center; margin-top: 20px;">📥 تحميل ملف PDF للشابتر</a>` : ''}
             <button class="submit-btn" id="takeQuizBtn" style="margin-top: 20px;">📝 إجراء اختبار الشابتر</button>
         </div>
+        
+        ${totalPages > 1 ? `
+        <div style="display: flex; justify-content: space-between; margin-top: 20px;">
+            <button class="back-btn" id="prevPage" ${currentPage === 0 ? 'disabled style="opacity:0.5; cursor:not-allowed;"' : ''}>◀ الصفحة السابقة</button>
+            <button class="back-btn" id="nextPage" ${currentPage === totalPages - 1 ? 'disabled style="opacity:0.5; cursor:not-allowed;"' : ''}>الصفحة التالية ▶</button>
+        </div>
+        ` : ''}
     `;
     
+    // إضافة أحداث التنقل
     document.getElementById('backBtn').addEventListener('click', () => window.history.back());
     document.getElementById('backToCourse').addEventListener('click', () => navigateTo('course', { courseId }));
     document.getElementById('takeQuizBtn').addEventListener('click', () => navigateTo('quiz', { courseId, chapterIndex }));
+    
+    if (totalPages > 1) {
+        const prevBtn = document.getElementById('prevPage');
+        const nextBtn = document.getElementById('nextPage');
+        
+        if (prevBtn && currentPage > 0) {
+            prevBtn.addEventListener('click', () => {
+                navigateTo('chapter', { courseId, chapterIndex, pageNum: currentPage - 1 });
+            });
+        }
+        
+        if (nextBtn && currentPage < totalPages - 1) {
+            nextBtn.addEventListener('click', () => {
+                navigateTo('chapter', { courseId, chapterIndex, pageNum: currentPage + 1 });
+            });
+        }
+        
+        // أزرار الصفحات
+        document.querySelectorAll('.page-nav-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const page = parseInt(btn.dataset.page);
+                navigateTo('chapter', { courseId, chapterIndex, pageNum: page });
+            });
+        });
+    }
 }
 
 // ==================== عرض المحاضرات ====================
@@ -623,7 +962,7 @@ function handleChapterClick(e) {
     const chapterIndex = el.getAttribute('data-chapter');
     const courseId = getCurrentCourseIdFromPage();
     if (courseId && chapterIndex !== null) {
-        navigateTo('chapter', { courseId, chapterIndex: parseInt(chapterIndex) });
+        navigateTo('chapter', { courseId, chapterIndex: parseInt(chapterIndex), pageNum: 0 });
     }
 }
 
